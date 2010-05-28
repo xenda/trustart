@@ -11,6 +11,7 @@ body {
 
 .clear {
 	clear: both;
+	padding:0 !important;
 }
 
 /* Header */
@@ -91,14 +92,38 @@ h1#logo a span {
 #footer {
 	border-top: solid 1px #f7f5f4;
 	background: #f2efec;
-	height: 283px;
+	height: 243px;
+	padding-top: 40px;
+}
+
+#footer div{
+	padding-top:20px;
+}
+
+#footer h3 {
+	color: #9D9D9F;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#footer li a {
+	color: #9D9D9F;
+	font-size: 12px;
 }
 
 #footer .logo {
-	background: url(../img/footer-logo.png) no-repeat left center;
-	height:283px;
-	width:164px;
+	background: url(../img/footer-logo.png) no-repeat;
+	height:195px;
+	width:156px;
 	float:left;
+	padding:0;
+}
+
+#footer .logo,
+#footer .projects,
+#footer .about {
+	margin: 0 34px 0 0;
 }
 
 #footer .logo p {
@@ -108,20 +133,32 @@ h1#logo a span {
 
 #footer .projects {
 	float:left;
-	width:415px;
+	width:380px;
 }
 
-#footer .projects li{
-	float:left;
+#footer .projects li {
+	float: left;
+	width: 190px;
+	padding: 3px 0;
 }
 
 #footer .about {
 	float:left;
+	width: 160px;
 }
+
+#footer .about li{
+	padding: 3px 0;
+	}
 
 #footer .ads {
 	float:left;
 	width:165px;
+}
+
+#footer .ads li {
+	float: left;
+	margin: 0 3px 5px 0;
 }
 
 
@@ -229,14 +266,41 @@ h1#logo a span {
 
 #subscribe h2 {
 	color: #58595B;
+	font-weight: bold;
+	margin-bottom:20px;
 }
 
 #subscribe .social-media {
 	float: right;
 }
 
-#subscribe #form {
+#subscribe form {
+	float: left;
+}
+
+#subscribe form label {
+	display:none;
+	visibility: hidden;
+}
+
+#subscribe form input {
+	width: 80px;
+	background: none;
+	border: solid 1px #C6C3C0;
+	color: #4C4847;
 	
+}
+
+#subscribe form input.submit {
+	color: #ffffff;
+	background: #DC3931;
+	border-color:#DC3931; 
+	width: 60px;
+	font-style:italic;
+}
+
+#subscribe form input.submit:hover {
+	cursor: pointer;
 }
 
 #featured h2 {
