@@ -454,3 +454,49 @@ h1#logo a span {
 	display: block;
 	float: right;
 }
+
+
+/*  Store page */
+
+.store-list h2 {
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	color: #BD312B;
+	font-weight: bold;
+	margin-bottom: 10px;
+	border-bottom: solid 5px #555555; 
+}
+
+.store-list h3 {
+	margin-bottom: 4px;
+	text-align: center;
+}
+
+.store-list h3 a {
+	color: #BD312B;
+	font-weight: bold;
+	color: #58595B;
+	font-size: 14px;
+}	
+
+.store-list #content {
+	margin-bottom: 20px;
+}
+
+.store-list #content p.price {
+	color: #BD312B;
+	text-align: center;
+}
+
+.store-list #content li {
+	float:left;
+	width: 180px;
+	padding: 69px;
+	border: dotted 1px #000000;
+}
+
+.store-list #content img {
+	width: 180px;
+	display:block;
+	margin-bottom: 5px;
+}
