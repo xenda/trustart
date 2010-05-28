@@ -1,0 +1,338 @@
+/* Layout general */
+
+body {
+	background: url(../img/background.png) repeat-x center top;
+}
+
+.wrapper {
+	width:963px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Header */
+
+#header {
+	height:66px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom:15px;
+}
+
+#header,
+#header a {
+	color: #808285;
+}
+
+#header a {
+	font-weight: bold;
+}
+
+
+h1#logo {
+	width:248px;
+	height:47px;
+	float:left;
+	margin-top:10px;
+}
+
+h1#logo a{
+	display: block;
+	background: url(../img/logo.png) no-repeat left center;
+	width:100%;
+	height:100%;
+}
+
+h1#logo a span {
+	display:none;
+	visibility:hidden;
+	}
+
+#nav,
+#login-box {
+	margin-top: 25px;
+}
+
+#nav {
+	float: left;
+	margin-left: 20px;
+}
+
+#nav li {
+	float: left;
+	text-transform: uppercase;
+	margin: 0 2px;
+}
+
+#nav li a{
+	display:block;
+	padding: 0 10px;
+	height: 100%;
+	color: #808285;
+}
+
+#nav li span {
+	text-transform: lowercase;
+	font-style: italic;
+	font-weight: 100;
+}
+
+#login-box {
+	float: right;
+	margin-right:15px;
+}
+
+
+/* footer */
+
+#footer {
+	border-top: solid 1px #f7f5f4;
+	background: #f2efec;
+	height: 283px;
+}
+
+#footer .logo {
+	background: url(../img/footer-logo.png) no-repeat left center;
+	height:283px;
+	width:164px;
+	float:left;
+}
+
+#footer .logo p {
+	display:none;
+	visibility:hidden;
+}
+
+#footer .projects {
+	float:left;
+	width:415px;
+}
+
+#footer .projects li{
+	float:left;
+}
+
+#footer .about {
+	float:left;
+}
+
+#footer .ads {
+	float:left;
+	width:165px;
+}
+
+
+/* home */
+
+#banner {
+	margin-bottom:15px;
+}
+
+.home #content {
+	margin-bottom:15px;
+}
+
+#video {
+	float:left;
+	width:446px;
+	height:386px;
+	padding:15px;
+	border-top: solid 1px #FAF9F7;
+	border-bottom: solid 1px #F7F5F4;
+	border-left: solid 1px #fefefe;
+	background: #F2EFEC;
+	position: relative;
+}
+
+#video h2 {
+	font-weight: bold;
+	color: #58595B;
+}
+
+#video h3 {
+	color: #BD312B;
+	font-style:italic;
+}
+
+#video div {
+	background: url(../img/teh-video.jpg) no-repeat;
+	width:443px;
+	height:333px;
+	margin: 0 auto;
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 15px;
+}
+
+#news {
+	background: url(../img/news-background.png) no-repeat;
+	width: 442px;
+	height:281px;
+	float:right;
+	margin: 0 0 10px 0;
+	padding:15px;
+}
+
+#news h2 {
+	color: #808285;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom:25px;
+}
+
+#news h3 {
+	color: #BD312B;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom:15px;
+}
+
+#news .meta {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #58595B;
+	margin-bottom:5px;
+}
+
+#news p {
+	color: #58595B;
+	line-height:20px;
+	margin-bottom:15px;
+}
+
+#news a {
+	display: block;
+	width: 89px;
+	height: 21px;
+	background: #F3FC04 url(../img/link-more.png) no-repeat;
+	color: #000000;
+	font-style: italic;
+	line-height:21px;
+	float: right;
+	font-size:13px;
+	padding-left: 5px;
+}
+
+#subscribe {
+	float: right;
+	width: 451px;
+	height: 77px;
+	background: #EAE7E4;
+	border: solid 5px #F2EFEC;
+	padding:5px;
+}
+
+#subscribe h2 {
+	color: #58595B;
+}
+
+#subscribe .social-media {
+	float: right;
+}
+
+#subscribe #form {
+	
+}
+
+#featured h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #808285;
+	margin-bottom: 5px;
+}
+
+#featured li {
+	float:left;
+	position:relative;
+	width:309px;
+	margin-right:18px;
+}
+
+#featured li.first,
+#featured li.last {
+	margin:0;
+}
+
+#featured li .head{ 
+	position:absolute;
+	top:0;
+	background-color: rgba(0, 0, 0, .6);
+	color:#ffffff;
+	padding: 5px;
+}
+
+#featured .head h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#featured .head h4 {
+	font-style: italic;
+}
+
+#featured .head p {
+	margin: 5px 0;
+	font-size:14px;
+}
+
+#featured li .head a {
+	display: block;
+	width: 89px;
+	height: 21px;
+	background: #F3FC04 url(../img/link-more.png) no-repeat;
+	color: #000000;
+	font-style: italic;
+	line-height:21px;
+	float: left;
+	font-size:13px;
+	padding-left: 5px;
+}
+
+/* social media */
+
+.social-media li.find {
+	font-style: italic;
+	color: #58595B;
+	font-size:14px;
+	line-height: 21px;
+	width: 80px;
+}
+
+.social-media li {
+	float: left;
+	width: 21px;
+	height: 21px;
+	margin: 0 3px;
+}
+
+.social-media li a {
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+.social-media li span{
+	display:none;
+	visibility:hidden;
+}
+
+.social-media li.twitter {
+	background: url(../img/social-media/twitter.png) no-repeat;
+}
+
+.social-media li.flirk {
+	background: url(../img/social-media/flirk.png) no-repeat;
+}
+
+.social-media li.vimeo {
+	background: url(../img/social-media/vimeo.png) no-repeat;
+}
+
+.social-media li.facebook {
+	background: url(../img/social-media/facebook.png) no-repeat;
+}
