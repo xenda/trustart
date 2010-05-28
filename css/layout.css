@@ -14,6 +14,17 @@ body {
 	padding:0 !important;
 }
 
+a.more {
+	width: 89px;
+	height: 21px;
+	background: #F3FC04 url(../img/link-more.png) no-repeat;
+	color: #000000;
+	font-style: italic;
+	line-height:21px;
+	font-size:13px;
+	padding-left: 5px;
+}
+
 /* Header */
 
 #header {
@@ -244,15 +255,7 @@ h1#logo a span {
 
 #news a {
 	display: block;
-	width: 89px;
-	height: 21px;
-	background: #F3FC04 url(../img/link-more.png) no-repeat;
-	color: #000000;
-	font-style: italic;
-	line-height:21px;
 	float: right;
-	font-size:13px;
-	padding-left: 5px;
 }
 
 #subscribe {
@@ -346,15 +349,7 @@ h1#logo a span {
 
 #featured li .head a {
 	display: block;
-	width: 89px;
-	height: 21px;
-	background: #F3FC04 url(../img/link-more.png) no-repeat;
-	color: #000000;
-	font-style: italic;
-	line-height:21px;
 	float: left;
-	font-size:13px;
-	padding-left: 5px;
 }
 
 /* social media */
@@ -399,4 +394,63 @@ h1#logo a span {
 
 .social-media li.facebook {
 	background: url(../img/social-media/facebook.png) no-repeat;
+}
+
+
+
+
+
+
+
+
+/*  Projects page */
+
+.projects h2 {
+	text-transform: uppercase;
+	color: #9D9D9F;
+	font-weight: bold;
+	margin-bottom: 5px; 
+}
+
+.projects h3 {
+	color: #58595B;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+.projects h4 {
+	font-style: italic;
+	color: #BD312B;
+	margin-bottom: 7px;
+}
+
+.projects #content {
+	margin-bottom: 20px;
+}
+
+.projects #content p {
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom:5px;
+}
+
+.projects #content li {
+	float:left;
+	width: 231px;
+	padding: 20px 44px;
+	border: dotted 1px #000000;
+}
+
+.projects #content img {
+	padding:10px;
+	background: #E7E8EB;
+	border: #F2EFEC solid 3px;
+	width: 207px;
+	display:block;
+	margin-bottom: 5px;
+}
+
+.projects #content a.more {
+	display: block;
+	float: right;
 }
