@@ -626,6 +626,7 @@ background: #EAE7E4;
 .profile #user {
 	border-bottom: solid 2px #555555;
 	padding:23px 0 20px 0;
+	position:relative;
 }
 
 .profile #user #detail {
@@ -691,6 +692,66 @@ background: #EAE7E4;
 
 .profile #user #share {
 	float:right;
+	width:500px;
+	margin-top:45px;
+}
+
+.profile #user #share li{
+	float:left;
+	width:135px;
+	margin:0;
+	position:relative;
+	height:95px;
+}
+
+.profile #user #share li.shares{
+	margin-right:70px;
+}
+
+.profile #user #share li p {
+	font-weight:bold;
+	color:#59A6F3;
+	font-size:2.75em;
+	letter-spacing:-0.1em;	
+}
+
+.profile #user #share li a {
+	position:absolute;
+	right:7px;
+	bottom:0;
+	color:#83C1F7;
+	font-size:.7em;
+	text-decoration:underline;
+}
+
+.profile #user #share li.shares p{
+	background: url(../img/logo-mini.png) no-repeat left center;
+	padding-left:45px;
+	}
+
+.profile #user #share li.gifts{
+	margin-right:55px;
+	width:105px;
+}
+
+.profile #user #share li.gifts span{
+	margin-left:5px;
+	font-size:16px;
+	letter-spacing:0;
+}
+
+.profile #user #share li h4{
+	text-align:center;
+	font-style:italic;
+	height:16px;
+	margin-bottom:13px;
+}
+
+.profile #user #share .edit{
+	position:absolute;
+	right:0;
+	bottom:5px;
+	width:35px;
 }
 
 .profile #user #detail img {
