@@ -618,3 +618,126 @@ background: #EAE7E4;
 	margin-top:20px;
 	background-position: right center;
 }
+
+
+
+/* Profile */
+
+.profile #user {
+	border-bottom: solid 2px #555555;
+	padding:23px 0 20px 0;
+}
+
+.profile #user #detail {
+	float: left;
+	height:185px;
+	width:370px;
+	padding-right:40px;
+	border-right: dashed 1px #000000;
+}
+
+.profile #user #share {
+	float:right;
+}
+
+.profile #user #detail img {
+	float:left;
+	margin-right: 35px;
+}
+
+.profile #projects {
+	padding-top:22px;	
+}
+
+.profile #projects ul{
+	float:left;
+	width:740px;
+}
+
+.profile #projects ul li.project {
+	background: url(../img/bg-proyect.jpg) no-repeat;
+	width: 207px;
+	height: 269px;
+	border: solid 5px #F2EFEC;
+	float:left;
+	margin:0 14px 14px 0;
+	padding: 0 10px;
+	position:relative;
+}
+
+.profile #projects ul li.last {
+	margin-right:0;
+}
+
+.profile #projects ul li.project h3,
+.profile #projects ul li.project h4{
+	text-align:center;
+}
+
+.profile #projects ul li.project .shared {
+	border: 1px dashed #000;
+	border-left:none;
+	border-right:none;
+	padding: 5px 0;
+}
+
+.profile #projects ul li.project .shared p {
+	padding-left:40px;
+}
+
+.profile #projects ul li.project a {
+	position:absolute;
+	bottom: 0;
+	display:block;
+	height:20px;
+}
+
+.profile #projects ul li.project a.info {
+	left:10px;
+	}
+	
+.profile #projects ul li.project a.share {
+	right:10px;
+	}
+
+.profile #projects ul li.project img {
+	margin:0 auto;
+	display: block;
+}
+
+.profile #sidebar {
+	width:188px;
+	float:right;
+	padding:0 10px 0 10px;
+	border: solid 1px #ccc;
+}
+
+.profile #projects #sidebar h3{
+	margin-top:15px;
+	height:29px;
+	border-bottom: dashed 1px #000;
+}
+
+.profile #projects #sidebar ul{
+	width:188px;
+}
+
+.profile #projects #sidebar li {
+	background:none;
+	border: none;
+	float:none;
+	height:31px;
+	width:188px;
+	margin: 0;
+	padding:5px 0;
+	border-bottom: dashed 1px #000;
+	}
+
+.profile #projects #sidebar li.last {
+	border:none
+}
+
+.profile #projects #sidebar li img {
+	float: left;
+	margin-right: 5px;
+}
