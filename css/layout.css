@@ -1,7 +1,7 @@
 /* Layout general */
 
 body {
-	background: url(../img/background.png) repeat-x center top;
+	background: url(../images/background.png) repeat-x center top;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 1em;
 }
@@ -20,7 +20,7 @@ a.more,
 input.more {
 	width: 77px;
 	height: 21px;
-	background: #F3FC04 url(../img/link-more.png) no-repeat right top;
+	background: #F3FC04 url(../images/link-more.png) no-repeat right top;
 	color: #000000;
 	font-style: italic;
 	line-height:21px;
@@ -61,7 +61,7 @@ h1#logo {
 
 h1#logo a{
 	display: block;
-	background: url(../img/logo.png) no-repeat left center;
+	background: url(../images/logo.png) no-repeat left center;
 	width:100%;
 	height:100%;
 }
@@ -146,7 +146,7 @@ h1#logo a span {
 }
 
 #footer .logo {
-	background: url(../img/footer-logo.png) no-repeat;
+	background: url(../images/footer-logo.png) no-repeat;
 	height:195px;
 	width:156px;
 	float:left;
@@ -247,7 +247,7 @@ h1#logo a span {
 }
 
 #video div {
-	background: url(../img/teh-video.jpg) no-repeat;
+	background: url(../images/teh-video.jpg) no-repeat;
 	width:443px;
 	height:333px;
 	margin: 0 auto;
@@ -259,7 +259,7 @@ h1#logo a span {
 }
 
 #news {
-	background: url(../img/news-background.png) no-repeat;
+	background: url(../images/news-background.png) no-repeat;
 	width: 433px;
 	height:281px;
 	float:right;
@@ -445,19 +445,19 @@ background: #EAE7E4;
 }
 
 .social-media li.twitter {
-	background: url(../img/social-media/twitter.png) no-repeat;
+	background: url(../images/social-media/twitter.png) no-repeat;
 }
 
 .social-media li.flirk {
-	background: url(../img/social-media/flirk.png) no-repeat;
+	background: url(../images/social-media/flirk.png) no-repeat;
 }
 
 .social-media li.vimeo {
-	background: url(../img/social-media/vimeo.png) no-repeat;
+	background: url(../images/social-media/vimeo.png) no-repeat;
 }
 
 .social-media li.facebook {
-	background: url(../img/social-media/facebook.png) no-repeat;
+	background: url(../images/social-media/facebook.png) no-repeat;
 }
 
 
@@ -686,7 +686,7 @@ background: #EAE7E4;
 .profile #user #detail .get-touch {
 	color: #58595B;
 	padding-left: 30px;
-	background: url(../img/get-url.png) no-repeat left top;
+	background: url(../images/get-url.png) no-repeat left top;
 	margin-right: 10px;
 }
 
@@ -725,7 +725,7 @@ background: #EAE7E4;
 }
 
 .profile #user #share li.shares p{
-	background: url(../img/logo-mini.png) no-repeat left center;
+	background: url(../images/logo-mini.png) no-repeat left center;
 	padding-left:45px;
 	}
 
@@ -769,7 +769,7 @@ background: #EAE7E4;
 }
 
 .profile #projects ul li.project {
-	background: url(../img/bg-proyect.jpg) no-repeat;
+	background: url(../images/bg-proyect.jpg) no-repeat;
 	width: 207px;
 	height: 249px;
 	border: solid 5px #F2EFEC;
@@ -811,7 +811,7 @@ background: #EAE7E4;
 
 .profile #projects ul li.project .shared p {
 	padding-left:100px;
-	background: url(../img/logo-mini.png) no-repeat 63px top;
+	background: url(../images/logo-mini.png) no-repeat 63px top;
 }
 
 .profile #projects ul li.project a {
