@@ -634,6 +634,59 @@ background: #EAE7E4;
 	width:370px;
 	padding-right:40px;
 	border-right: dashed 1px #000000;
+	position:relative;
+}
+
+.profile #user #detail h2{
+	color: #58595B;
+	font-weight: bold;
+	font-size: 1.25em;
+	height:20px;
+	margin-bottom:2px;
+}
+
+.profile #user #detail h3{
+	color: #BD312B;
+	font-weight:bold;
+	font-size: .9em;
+	height:15px;
+	margin-bottom:20px;
+	font-family: "Times New Roman";
+	font-style: italic;
+}
+
+.profile #user #detail blockquote {
+	font-style:italic;
+	font-weight:bold;
+	color: #58595B;
+	font-family: "Times New Roman";
+	line-height:1.2em
+}
+
+.profile #user #detail .contact {
+	position: absolute;
+	bottom: 1px;
+	right:88px;
+	font-size:.7em;
+	height:17px;
+}
+
+.profile #user #detail .url,
+.profile #user #detail .get-touch {
+	padding: 2px 0 1px 0;
+}
+
+.profile #user #detail .url {
+	text-decoration:underline;
+	color:#83C1F7;
+	margin-left: 15px;
+}
+
+.profile #user #detail .get-touch {
+	color: #58595B;
+	padding-left: 30px;
+	background: url(../img/get-url.png) no-repeat left top;
+	margin-right: 10px;
 }
 
 .profile #user #share {
