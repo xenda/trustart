@@ -875,3 +875,49 @@ background: #EAE7E4;
 	float: left;
 	margin-right: 5px;
 }
+
+
+/* Project */
+
+.project .meta h2 {}
+
+.project .meta h3 {}
+
+.project .meta ul {}
+
+.project .meta li {
+	float: left;
+	padding: 5px 15px;
+	margin: 0 10px;
+}
+
+.project #video {
+	background: url(../images/teh-video.jpg) no-repeat;
+	width:595px;
+	height:450px;
+	margin: 0;
+	padding:0;
+}
+
+.project #content {
+	width:595px;
+	float:left;
+}
+
+.project #sidebar {
+	width: 203px;
+	float:right;
+}
+
+.project #top-ten,
+.project #shareholders {
+	width:290px;
+}
+	
+.project #shareholders {
+	float:left;
+}
+
+.project #top-ten {
+	float:right;
+}
