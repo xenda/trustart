@@ -20,7 +20,7 @@ a.more,
 input.more {
 	width: 77px;
 	height: 21px;
-	background: #F3FC04 url(../images/link-more.png) no-repeat right top;
+	background: #F3FC04 url(../images/link-more.png) no-repeat right center;
 	color: #000000;
 	font-style: italic;
 	line-height:21px;
@@ -1032,6 +1032,7 @@ background: #EAE7E4;
 	background: url(../images/make-gift.png) no-repeat center top;
 	height: 109px;
 	margin-bottom:5px;
+	margin-top: 10px;
 }
 
 .project #sidebar #gift h3 span{
@@ -1076,17 +1077,65 @@ background: #EAE7E4;
 .project #sidebar #resources h3{
 	height:45px;
 	line-height:45px;
-	}
+}
 
 .project #sidebar #resources ul li{
 	height: 30px;
 	line-height:30px;
 	padding-left:45px;
-	}
+	font-family:"Times New Roman";
+	font-style:italic;
+	font-weight:bold;
+}
 	
 .project #sidebar #resources ul li.clock {}
 .project #sidebar #resources ul li.even {}
 .project #sidebar #resources ul li.paintbrush {}
+
+.project #sidebar #help,
+.project #sidebar #update{
+	padding-top:20px;
+}
+
+.project #sidebar #help h3,
+.project #sidebar #update h3 {
+	font-weight:bold;
+}
+
+.project #sidebar #help a {
+	display:block;
+	height:25px;
+	line-height:25px;
+	margin: 15px 0;
+	padding-left: 50px;
+	font-style:italic;
+	font-family: "Times New Roman";
+	background: url(../images/get-url.png) no-repeat 14px center;
+	color: #58595B;
+	font-weight:bold;	
+}
+
+.project #sidebar #update {
+	position:relative;
+}
+
+.project #sidebar #update .tweet-cont {
+	height:140px;
+	padding-bottom:30px;
+}
+
+.project #sidebar #update a {
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:auto;
+	font-weight:bold;
+	font-family: "Times New Roman";
+	font-size:1em;
+	padding-bottom: 3px;
+	padding-left: 10px;
+}
+
 
 .project #top-ten,
 .project #shareholders {
