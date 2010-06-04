@@ -203,14 +203,14 @@ h1#logo a span {
 }
 
 #container {
-	margin-top:-6px;
+
 }
 
 
 /* home */
 
 #banner {
-	margin-bottom:0px;
+	margin-bottom:6px;
 	height:266px;
 }
 
