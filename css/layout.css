@@ -883,23 +883,71 @@ background: #EAE7E4;
 
 /* Project */
 
-.project .meta h2 {}
+.project .meta {
+	padding-top:5px;
+}
 
-.project .meta h3 {}
+.project .meta h2 {
+	font-weight:bold;
+	font-size:1.25em;
+	color: #58585b;
+	text-transform:uppercase;
+	height:20px;
+	margin-bottom:3px;
+}
 
-.project .meta ul {}
+.project .meta h3 {
+	color:#BD312B;
+	font-family:"Times New Roman";
+	font-style:italic;
+	letter-spacing:0.05em;
+	word-spacing:-0.1em;
+	font-weight:bold;
+	height:16px;
+	margin-bottom:15px;
+}
+
+.project .meta ul {
+	height:30px;
+	margin-bottom:10px;
+}
 
 .project .meta li {
 	float: left;
-	padding: 5px 15px;
-	margin: 0 10px;
+	margin: 0;
+	border-right:solid 1px #fff;
+	background:#f1efeb;
+	font-family:"Times New Roman";
+}
+
+.project .meta li.selected {
+	background: #459ff7 url(../images/link-current.png) no-repeat right top;
+}
+
+.project .meta li.selected a {
+	color: #fff;
+	padding-right:25px;
+	}
+
+.project .meta li.selected a:hover {
+	text-decoration:none;
+	cursor:default;
+}
+
+.project .meta li a {
+	color: #9d9d9f;
+	font-style:italic;
+	font-weight: bold;
+	display:block;
+	height:20px;
+	padding: 6px 15px 4px 15px;	
 }
 
 .project #video {
 	background: url(../images/teh-big-video.jpg) no-repeat;
 	width:595px;
 	height:450px;
-	margin: 0;
+	margin: 0 0 15px 0;
 	padding:0;
 	border:none;
 }
@@ -909,6 +957,21 @@ background: #EAE7E4;
 	float:left;
 }
 
+.project #content .content {
+	border-bottom: dashed 1px #000;
+	padding-bottom: 10px;	
+}
+
+#project .content p{
+	font-size:.75em;
+	word-spacing:.05em;
+	line-height:1.6em;
+}
+
+#project ul {
+	
+}
+
 .project #sidebar {
 	width: 203px;
 	float:right;
@@ -916,13 +979,70 @@ background: #EAE7E4;
 
 .project #top-ten,
 .project #shareholders {
-	width:290px;
+	width:250px;
+	background:#f1efeb;
+	padding:5px 20px;
+	margin-top:18px;
 }
-	
+
+.project #shareholders h4,
+.project #top-ten h4 {
+	height:40px;
+	line-height:40px;
+	border-bottom:dashed 1px #000;
+	}
+
 .project #shareholders {
 	float:left;
 }
 
+.project #shareholders h4{
+	color: #57595b;
+	font-weight:bold;
+	font-family: "Times New Roman";
+	font-size:1.1em;
+	letter-spacing:-.05em;	
+}
+
 .project #top-ten {
 	float:right;
+}
+
+.project #top-ten h4 {
+	border-bottom:dashed 1px #000;
+	font-size:2em;
+	font-weight:bold;
+	color: #ef3f37;
+}
+
+.project #top-ten h4 span{
+	color: #57595b;
+	font-size:.45em;
+}
+
+.project #share {
+	margin:20px 0 0 0;
+	height:48px;
+}
+
+.project #twitter {
+	width:48px;
+	height:48px;
+	float:left;
+	background:url(../images/count-twitter.png) no-repeat;
+}
+
+.project #facebook {
+	width:48px;
+	height:48px;
+	float:left;
+	background:url(../images/count-facebook.png) no-repeat;	
+	margin-right:10px;
+}
+
+.project #facebook-like {
+	width:259px;
+	height:48px;
+	float:right;
+	background:url(../images/like-facebook.png) no-repeat;
 }

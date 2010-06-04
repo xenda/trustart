@@ -40,11 +40,6 @@
 						<div id="video"></div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum felis elit, interdum ut fringilla mollis, pharetra non tortor. Cras bibendum libero sit amet odio tincidunt tristique. Curabitur et purus ut lorem accumsan congue. Sed nec ipsum metus.</p>
 						<p>Phasellus consequat nunc id tortor congue id feugiat nisi venenatis. Praesent sed lectus erat, a dignissim nisl. In in lacus sapien, non pulvinar turpis. Duis eu magna odio. Aenean ut arcu vel enim condimentum cursus. Nunc a mauris augue, et hendrerit enim. Proin leo orci, sollicitudin vitae rhoncus at, vestibulum ac ante. Curabitur nisl ligula, dapibus quis vulputate vitae, eleifend ut arcu. Etiam vel massa id augue convallis rutrum ut et est. Vivamus lobortis pretium neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed pellentesque enim sit amet nisl tincidunt in elementum dui vestibulum. Morbi euismod mollis nibh at aliquam. Ut pulvinar elementum feugiat. </p>
-						<div id="share">
-							<div id="facebook"></div>
-							<div id="twitter"></div>
-							<div id="facebook-like"></div>
-						</div>
 					</div>
 					<div id="shareholders">
 						<h4>project shareholders</h4>
