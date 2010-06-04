@@ -979,6 +979,18 @@ background: #EAE7E4;
 	background:#f2f0ec url(../images/sidebar-bg.png);
 }
 
+.project #sidebar .widget {
+	border-top: solid 2px #000;
+}
+
+.project #sidebar #status h3{
+	height:45px;
+	line-height: 45px;
+	border-bottom: solid 2px #000;
+	text-align:center;
+	margin-bottom:15px;
+}
+
 .project #top-ten,
 .project #shareholders {
 	width:250px;
