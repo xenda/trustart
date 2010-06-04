@@ -503,6 +503,8 @@ background: #EAE7E4;
 	width: 231px;
 	padding: 20px 44px;
 	border: dotted 1px #000000;
+	position:relative;
+	height:341px;
 }
 
 .projects #content img {
@@ -516,7 +518,9 @@ background: #EAE7E4;
 
 .projects #content a.more {
 	display: block;
-	float: right;
+	position:absolute;
+	right:44px;
+	bottom:20px;
 }
 
 
