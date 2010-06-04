@@ -973,8 +973,10 @@ background: #EAE7E4;
 }
 
 .project #sidebar {
-	width: 350px;
+	width: 310px;
+	padding:20px;
 	float:right;
+	background:#f2f0ec url(../images/sidebar-bg.png);
 }
 
 .project #top-ten,
