@@ -27,21 +27,7 @@
 			<div id="content">
 				<h2>Projects</h2>
 				<ul>
-					<li class="top">
-						<img src="images/project-1.jpg" width="207" height="113" alt="" title="" />
-						<h3>the vulture project</h3>
-						<h4>jhon doe</h4>
-						<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
-						<a href="#" title="Learn more" class="more">learn more</a>
-					</li>
-					<li class="top">
-						<img src="images/project-3.jpg" width="207" height="113" alt="" title="" />
-						<h3>the vulture project</h3>
-						<h4>jhon doe</h4>
-						<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
-						<a href="#" title="Learn more" class="more">learn more</a>
-					</li>
-					<li class="top last">
+					<li>
 						<img src="images/project-1.jpg" width="207" height="113" alt="" title="" />
 						<h3>the vulture project</h3>
 						<h4>jhon doe</h4>
@@ -55,7 +41,21 @@
 						<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
 						<a href="#" title="Learn more" class="more">learn more</a>
 					</li>
-					<li class="last">
+					<li>
+						<img src="images/project-1.jpg" width="207" height="113" alt="" title="" />
+						<h3>the vulture project</h3>
+						<h4>jhon doe</h4>
+						<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+						<a href="#" title="Learn more" class="more">learn more</a>
+					</li>
+					<li>
+						<img src="images/project-3.jpg" width="207" height="113" alt="" title="" />
+						<h3>the vulture project</h3>
+						<h4>jhon doe</h4>
+						<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+						<a href="#" title="Learn more" class="more">learn more</a>
+					</li>
+					<li>
 						<img src="images/project-2.jpg" width="207" height="113" alt="" title="" />
 						<h3>the vulture project</h3>
 						<h4>jhon doe</h4>

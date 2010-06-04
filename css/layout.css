@@ -502,9 +502,22 @@ background: #EAE7E4;
 	float:left;
 	width: 231px;
 	padding: 20px 44px;
-	border: dotted 1px #000000;
+	/*border: dotted 1px #000000;*/
 	position:relative;
 	height:341px;
+}
+
+.projects #content li.top {
+	border-top: dotted 1px #000000;
+	}
+	
+.projects #content li {
+	border-left: dotted 1px #000000;
+	border-bottom: dotted 1px #000000;
+}
+
+.projects #content li.last {
+	border-right: dotted 1px #000000;
 }
 
 .projects #content img {
