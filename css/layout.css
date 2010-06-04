@@ -994,6 +994,7 @@ background: #EAE7E4;
 
 .project #shareholders {
 	float:left;
+	position:relative;
 }
 
 .project #shareholders h4{
@@ -1009,16 +1010,60 @@ background: #EAE7E4;
 }
 
 .project #top-ten h4 {
-	border-bottom:dashed 1px #000;
 	font-size:2em;
 	font-weight:bold;
 	color: #ef3f37;
 }
 
+.project #top-ten h4,
+.project #shareholders ul li,
+.project #top-ten ul li {
+	border-bottom:dashed 1px #000;
+}
+
+.project #shareholders ul li.last,
+.project #top-ten ul li.last {
+	border:none;
+	}
+
 .project #top-ten h4 span{
 	color: #57595b;
 	font-size:.45em;
 }
+
+.project #shareholders ul img,
+.project #top-ten ul img {
+	float:left;
+	margin-right:10px;
+}
+
+.project #shareholders ul,
+.project #top-ten ul {
+	margin-bottom:20px;
+}
+
+.project #shareholders ul li,
+.project #top-ten ul li {
+	height:31px;
+	padding: 5px;
+}
+
+.project #shareholders li p,
+.project #top-ten li p {
+	line-height:31px;
+	height:31px;
+	font-weight:bold;
+}
+
+.project #shareholders .more {
+	position:absolute;
+	right: 20px;
+	bottom:5px; 
+	background:none;
+	width:auto;
+	padding:0 0 0 20px; 
+}
+
 
 .project #share {
 	margin:20px 0 0 0;
