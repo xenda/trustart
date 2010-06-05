@@ -733,9 +733,18 @@ background: #EAE7E4;
 
 /* Profile */
 
+.loggedin #login-box a {
+	background: none;
+	text-decoration:none;
+}
+
+.loggedin #login-box a:hover {
+	text-decoration:underline;
+	}
+
 .profile #user {
 	border-bottom: solid 2px #555555;
-	padding:23px 0 20px 0;
+	padding:16px 0 20px 0;
 	position:relative;
 }
 
@@ -753,13 +762,13 @@ background: #EAE7E4;
 	font-weight: bold;
 	font-size: 1.25em;
 	height:20px;
-	margin-bottom:2px;
+	margin-bottom:1px;
 }
 
 .profile #user #detail h3{
 	color: #BD312B;
 	font-weight:bold;
-	font-size: .9em;
+	font-size: 1em;
 	height:15px;
 	margin-bottom:20px;
 	font-family: "Times New Roman";
@@ -771,7 +780,7 @@ background: #EAE7E4;
 	font-weight:bold;
 	color: #58595B;
 	font-family: "Times New Roman";
-	line-height:1.2em
+	line-height:1.35em
 }
 
 .profile #user #detail .contact {
@@ -795,9 +804,9 @@ background: #EAE7E4;
 
 .profile #user #detail .get-touch {
 	color: #58595B;
-	padding-left: 30px;
+	padding-left: 40px;
 	background: url(../images/get-url.png) no-repeat left top;
-	margin-right: 10px;
+	margin-right: 15px;
 }
 
 .profile #user #share {
