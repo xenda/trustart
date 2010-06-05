@@ -1,0 +1,19 @@
+#ie7 #subscribe {
+	bottom:36px;
+	}
+	
+#ie7 #subscribe form input.submit {
+	width:60px;
+}
+
+#ie7 #subscribe .social-media {
+	position:absolute;
+	right:10px;
+	top:50px;
+}
+
+.ie #featured .head {
+	background:none;
+	background: url(../images/featured-bg.png) repeat;
+	width:291px;
+}
