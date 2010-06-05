@@ -17,3 +17,7 @@
 	background: url(../images/featured-bg.png) repeat;
 	width:291px;
 }
+
+.projects #ie7 #footer {
+	margin-top:10px;
+}
