@@ -21,3 +21,7 @@
 .projects #ie7 #footer {
 	margin-top:10px;
 }
+
+.store-detail .ie #content #detail p.desc {
+	letter-spacing:0em;
+}

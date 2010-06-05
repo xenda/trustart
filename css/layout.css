@@ -618,14 +618,24 @@ background: #EAE7E4;
 
 /*  Store page */
 
+.store-detail #header {
+	margin-bottom:43px;
+}
+
 .store-list h2,
 .store-detail h2 {
 	text-transform: uppercase;
-	padding-bottom: 5px;
+	padding-bottom: 3px;
 	color: #BD312B;
 	font-weight: bold;
-	margin-bottom: 10px;
-	border-bottom: solid 5px #555555; 
+	margin-bottom: 25px;
+	border-bottom: solid 3px #555555;
+	font-family:"Times New Roman";
+	height:16px;
+}
+
+.store-detail #content {
+	margin-bottom:150px;
 }
 
 .store-list h3 {
@@ -638,7 +648,7 @@ background: #EAE7E4;
 	color: #BD312B;
 	font-weight: bold;
 	color: #58595B;
-	font-size: 14px;
+	font-size: 1.25em;
 }	
 
 .store-list #content,
@@ -667,7 +677,7 @@ background: #EAE7E4;
 
 .store-detail #content img {
 	float: left;
-	margin-right: 30px;
+	margin-right: 45px;
 }
 
 .store-detail #content #detail {
@@ -681,13 +691,15 @@ background: #EAE7E4;
 }
 
 .store-detail #content #detail p.price {
-	margin-bottom:10px;
+	margin-bottom:17px;
 	}
 
 .store-detail #content #detail p.desc {
 	font-size:14px;
-	line-height: 16px;
-	margin-bottom: 10px;
+	letter-spacing:-0.05em;
+	line-height:1.3em;
+	margin-bottom:10px;
+	width:360px;
 }
 
 .store-detail #content form label {
@@ -698,7 +710,7 @@ background: #EAE7E4;
 }
 
 .store-detail #content form input {
-	width: 30px;
+	width: 50px;
 	height:30px;
 	border: solid 1px #C6C3C0;
 }
@@ -706,10 +718,10 @@ background: #EAE7E4;
 .store-detail #content form input.submit {
 	border:none;
 	width: 100px;
-	height: 25px;
+	height: 21px;
 	padding-left:0;
 	display: block;
-	margin-top:20px;
+	margin-top:40px;
 	background-position: right center;
 }
 
