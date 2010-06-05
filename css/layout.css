@@ -52,15 +52,16 @@ body {
 
 a.more,
 input.more {
-	width: 77px;
 	height: 21px;
 	background: #F3FC04 url(../images/link-more.png) no-repeat right center;
 	color: #000000;
 	font-style: italic;
+	font-weight:bold;
 	line-height:21px;
-	font-size:13px;
-	padding-right: 17px;
-	text-align: right;	
+	font-size:1em;
+	padding:0 17px 3px 5px;
+	text-align: right;
+	font-family:"Times New Roman";	
 }
 
 input.submit:hover {
@@ -175,12 +176,13 @@ h1#logo a span {
 	color: #9D9D9F;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin-bottom: 5px;
+	margin-bottom: 2px;
+	font-size:0.9em;
 }
 
 #footer li a {
 	color: #9D9D9F;
-	font-size: 12px;
+	font-size: .8em;
 }
 
 #footer .logo,
@@ -225,7 +227,7 @@ h1#logo a span {
 }
 
 #footer .about li{
-	padding: 3px 0;
+	padding: 2px 0;
 	}
 
 #footer .ads {
@@ -267,8 +269,8 @@ h1#logo a span {
 #video {
 	float:left;
 	width:446px;
-	height:386px;
-	padding:15px;
+	height:385px;
+	padding:16px 15px 15px 15px;
 	border-top: solid 1px #FAF9F7;
 	border-bottom: solid 1px #F7F5F4;
 	border-left: solid 1px #fefefe;
@@ -281,7 +283,7 @@ h1#logo a span {
 	color: #58595B;
 	text-transform:uppercase;
 	font-size:1.2em;
-	letter-spacing:.05em;
+	word-spacing:.15em;
 	height:22px;
 }
 #video h3 {
@@ -290,18 +292,15 @@ h1#logo a span {
 	font-family: "Times New Roman";
 	letter-spacing:.05em;
 	word-spacing:-.1em;
+	font-weight:bold;
 }
 
 #video div {
 	background: url(../images/teh-video.jpg) no-repeat;
 	width:443px;
 	height:333px;
-	margin: 0 auto;
+	margin: 15px auto 0 auto;
 	cursor: pointer;
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 15px;
 }
 
 #news {
@@ -310,6 +309,7 @@ h1#logo a span {
 	height:281px;
 	float:right;
 	padding:17px 20px 20px 20px;
+	position:relative;
 }
 
 #news h2 {
@@ -327,7 +327,7 @@ h1#logo a span {
 	margin-bottom:15px;
 	font-size:1.1em;
 	letter-spacing:.1em;
-	word-spacing:-.1em;
+	word-spacing:-.2em;
 }
 
 #news .meta {
@@ -339,14 +339,16 @@ h1#logo a span {
 
 #news p {
 	color: #58595B;
-	line-height:20px;
+	line-height:1.5em;
 	margin-bottom:25px;
+	font-size:.85em;
 }
 
 #news a {
 	display: block;
-	float: right;
-	margin-right:15px;
+	position:absolute;
+	right:30px;
+	bottom:30px;
 }
 
 #subscribe {
@@ -387,6 +389,9 @@ background: #EAE7E4;
 	border: solid 1px #C6C3C0;
 	color: #4C4847;
 	height:17px;
+	font-family:"Times New Roman";
+	font-weight:bold;
+	font-size:1em;
 }
 
 #subscribe form input#email {
@@ -403,9 +408,13 @@ background: #EAE7E4;
 	color: #ffffff;
 	background: #DC3931;
 	border-color:#DC3931; 
-	width: 50px;
+	width: auto;
 	font-style:italic;
-	height:18px;
+	height:21px;
+}
+
+#featured {
+	padding:2px 0 0 0;
 }
 
 #featured h2 {
@@ -414,6 +423,8 @@ background: #EAE7E4;
 	color: #808285;
 	margin-bottom: 5px;
 	height:20px;
+	word-spacing:.2em;
+	font-family:"Times New Roman";
 }
 
 #featured li {
@@ -431,10 +442,12 @@ background: #EAE7E4;
 #featured li .head{ 
 	position:absolute;
 	top:0;
+	left:0;
 	background-color: rgba(0, 0, 0, .6);
 	color:#ffffff;
 	padding: 9px;
 	height:120px;
+	width:291px;
 }
 
 #featured .head h3 {
@@ -448,17 +461,20 @@ background: #EAE7E4;
 	font-family: "Times New Roman";
 	height:15px;
 	margin-bottom:8px;
+	font-weight:bold;
 }
 
 #featured .head p {
-	margin: 5px 0;
-	font-size:.85em;
-	margin-bottom:14px;
+	font-size:0.8em;
+	line-height:1.2em;
+	margin:5px 0 0 0;
 }
 
 #featured li .head a {
-	display: block;
-	float: left;
+	position:absolute;
+	left:9px;
+	bottom:14px;
+	height:19px;
 }
 
 /* social media */
