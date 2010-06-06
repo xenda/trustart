@@ -746,7 +746,7 @@ background: #EAE7E4;
 	border-bottom: solid 2px #555555;
 	padding:16px 0 20px 0;
 	position:relative;
-	margin-bottom:22px;
+	margin-bottom:20px;
 }
 
 .profile #user #detail {
@@ -877,13 +877,14 @@ background: #EAE7E4;
 	font-weight:1.05em;
 	font-family:"Times New Roman";
 	text-transform:capitalize;
+	font-weight:bold;
+	color:#8F8C87;
 }
 
 .profile #user #share .edit{
 	position:absolute;
 	right:0;
 	bottom:5px;
-	width:35px;
 }
 
 .profile #user #detail img {
@@ -914,32 +915,52 @@ background: #EAE7E4;
 .profile ul#projects li.project h3,
 .profile ul#projects li.project h4{
 	text-align:center;
+	color:#58595B;
 }
 
 .profile ul#projects li.project h3 {
 	font-size:1.25em;
 	font-weight:bold;
 	height:20px;
+	margin-bottom:1px;
 }
 
 .profile ul#projects li.project h4{
 	font-style:italic;
-	font-size:1.05em;
 	height:22px;
-	margin-bottom:7px;
+	margin-bottom:6px;
+	font-family: "Times New Roman";
+	font-weight:bold;
+}
+
+.profile ul#projects li.project .shared,
+.profile ul#projects li.project .shared p {
+	height:33px;
 }
 
 .profile ul#projects li.project .shared {
 	border: 1px dashed #000;
 	border-left:none;
 	border-right:none;
-	padding: 8px 0;
-	height:33px;
+	padding: 6px 0 8px 0;
 }
 
 .profile ul#projects li.project .shared p {
 	padding-left:100px;
-	background: url(../images/logo-mini.png) no-repeat 63px top;
+	background: url(../images/logo-mini.png) no-repeat 64px center;
+	color:#4187E3;
+	font-weight:bold;
+	font-size:1.4em;
+}
+
+.profile ul#projects li.project .shared p small {
+	color:#0F43D3;
+	display:block;
+	font-family:"Times New Roman";
+	font-size:0.5em;
+	font-style:italic;
+	letter-spacing:0.1em;
+	padding-left:3px;
 }
 
 .profile ul#projects li.project a {
@@ -963,7 +984,7 @@ background: #EAE7E4;
 	}
 
 .profile ul#projects li.project img {
-	margin:0 auto 7px auto;
+	margin:0 auto 10px auto;
 	display: block;
 }
 
@@ -974,17 +995,17 @@ background: #EAE7E4;
 	border: solid 1px #ccc;
 }
 
-.profile #projects #sidebar h3{
+.profile #content #sidebar h3{
 	margin-top:15px;
 	height:29px;
 	border-bottom: dashed 1px #000;
 }
 
-.profile #projects #sidebar ul{
+.profile #content #sidebar ul{
 	width:188px;
 }
 
-.profile #projects #sidebar li {
+.profile #content #sidebar li {
 	background:none;
 	border: none;
 	float:none;
@@ -995,11 +1016,11 @@ background: #EAE7E4;
 	border-bottom: dashed 1px #000;
 	}
 
-.profile #projects #sidebar li.last {
+.profile #content #sidebar li.last {
 	border:none
 }
 
-.profile #projects #sidebar li img {
+.profile #content #sidebar li img {
 	float: left;
 	margin-right: 5px;
 }
