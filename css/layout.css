@@ -1107,7 +1107,7 @@ span.numbers,
 	background: url(../images/teh-big-video.jpg) no-repeat;
 	width:595px;
 	height:450px;
-	margin: 0 0 15px 0;
+	margin: 0 0 18px 0;
 	padding:0;
 	border:none;
 }
@@ -1126,10 +1126,6 @@ span.numbers,
 	font-size:.75em;
 	word-spacing:.05em;
 	line-height:1.6em;
-}
-
-#project ul {
-	
 }
 
 .project #sidebar {
@@ -1351,9 +1347,10 @@ span.numbers,
 
 .project #shareholders h4,
 .project #top-ten h4 {
-	height:40px;
-	line-height:40px;
+	height:37px;
+	line-height:35px;
 	border-bottom:dashed 1px #000;
+	text-transform:uppercase;
 	}
 
 .project #shareholders {
@@ -1377,6 +1374,12 @@ span.numbers,
 	font-size:2em;
 	font-weight:bold;
 	color: #ef3f37;
+	font-family:"Helvetica";
+}
+
+.project #top-ten h4 span{
+	color: #57595b;
+	font-size:.45em;
 }
 
 .project #top-ten h4,
@@ -1388,44 +1391,43 @@ span.numbers,
 .project #shareholders ul li.last,
 .project #top-ten ul li.last {
 	border:none;
+	padding-bottom:0;
 	}
-
-.project #top-ten h4 span{
-	color: #57595b;
-	font-size:.45em;
-}
 
 .project #shareholders ul img,
 .project #top-ten ul img {
 	float:left;
-	margin-right:10px;
+	margin-right:16px;
 }
 
 .project #shareholders ul,
 .project #top-ten ul {
-	margin-bottom:20px;
+	margin-bottom:15px;
 }
 
 .project #shareholders ul li,
 .project #top-ten ul li {
-	height:31px;
-	padding: 5px;
+	height:30px;
+	padding: 5px 5px 5px 0;
 }
 
 .project #shareholders li p,
 .project #top-ten li p {
-	line-height:31px;
-	height:31px;
+	line-height:27px;
+	height:30px;
 	font-weight:bold;
+	letter-spacing:-.1em;
+	word-spacing:.05em;
 }
 
 .project #shareholders .more {
 	position:absolute;
-	right: 20px;
+	right: 4px;
 	bottom:5px; 
 	background:none;
 	width:auto;
-	padding:0 0 0 20px; 
+	font-size:.95em;
+	padding:0 0 0 10px; 
 }
 
 
