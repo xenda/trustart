@@ -40,15 +40,15 @@
 						<ul>
 							<li class="shares">
 								<h4>shares</h4>
-								<p>9100</p>
+								<p><span class="numbers">9100</span></p>
 							</li>
 							<li class="gifts">
 								<h4>gifts</h4>
-								<p>42 <small>people</small></p>
+								<p><span class="numbers">42</span><small>people</small></p>
 							</li>
 							<li class="impact">
 								<h4>impact</h4>
-								<p>$11362</p>
+								<p><span class="numbers">$11362</span></p>
 							</li>														
 						</ul>
 						<a href="#" class="edit more">edit</a>
@@ -92,7 +92,6 @@
 						<a href="#" class="info">info</a>
 					</li>
 				</ul>
-					
 				<div id="sidebar">
 					<h3>People i've shared with</h3>
 					<ul>
@@ -175,7 +174,7 @@
 	<script src="js/cufon-yui.js" type="text/javascript"></script>
 	<script src="fonts/numbers.js" type="text/javascript"></script>
 	<script type="text/javascript">
-		Cufon.replace('#share li p', { fontFamily: 'Helvetica', color: '-linear-gradient(#8AC5F8, #3380EC)' });
+		Cufon.replace('span.numbers', { fontFamily: 'Helvetica', color: '-linear-gradient(#8AC5F8, #3380EC)' });
 	</script>
 	<script type="text/javascript">Cufon.now();</script>
 </body>
