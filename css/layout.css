@@ -746,6 +746,7 @@ background: #EAE7E4;
 	border-bottom: solid 2px #555555;
 	padding:16px 0 20px 0;
 	position:relative;
+	margin-bottom:22px;
 }
 
 .profile #user #detail {
@@ -813,7 +814,7 @@ background: #EAE7E4;
 .profile #user #share {
 	float:right;
 	width:500px;
-	margin-top:45px;
+	padding-top:43px;
 }
 
 .profile #user #share li{
@@ -821,7 +822,7 @@ background: #EAE7E4;
 	width:135px;
 	margin:0;
 	position:relative;
-	height:95px;
+	height:96px;
 }
 
 .profile #user #share li.shares{
@@ -845,7 +846,7 @@ background: #EAE7E4;
 }
 
 .profile #user #share li.shares p{
-	background: url(../images/logo-mini.png) no-repeat left center;
+	background: url(../images/logo-mini.png) no-repeat 4px 6px;
 	padding-left:45px;
 	}
 
@@ -872,7 +873,10 @@ background: #EAE7E4;
 	text-align:center;
 	font-style:italic;
 	height:16px;
-	margin-bottom:13px;
+	margin-bottom:15px;
+	font-weight:1.05em;
+	font-family:"Times New Roman";
+	text-transform:capitalize;
 }
 
 .profile #user #share .edit{
@@ -887,16 +891,12 @@ background: #EAE7E4;
 	margin-right: 35px;
 }
 
-.profile #projects {
-	padding-top:22px;	
-}
-
-.profile #projects ul{
+.profile ul#projects{
 	float:left;
 	width:740px;
 }
 
-.profile #projects ul li.project {
+.profile ul#projects li.project {
 	background: url(../images/bg-proyect.jpg) no-repeat;
 	width: 207px;
 	height: 249px;
@@ -907,29 +907,29 @@ background: #EAE7E4;
 	position:relative;
 }
 
-.profile #projects ul li.last {
+.profile ul#projects li.last {
 	margin-right:0;
 }
 
-.profile #projects ul li.project h3,
-.profile #projects ul li.project h4{
+.profile ul#projects li.project h3,
+.profile ul#projects li.project h4{
 	text-align:center;
 }
 
-.profile #projects ul li.project h3 {
+.profile ul#projects li.project h3 {
 	font-size:1.25em;
 	font-weight:bold;
 	height:20px;
 }
 
-.profile #projects ul li.project h4{
+.profile ul#projects li.project h4{
 	font-style:italic;
 	font-size:1.05em;
 	height:22px;
 	margin-bottom:7px;
 }
 
-.profile #projects ul li.project .shared {
+.profile ul#projects li.project .shared {
 	border: 1px dashed #000;
 	border-left:none;
 	border-right:none;
@@ -937,12 +937,12 @@ background: #EAE7E4;
 	height:33px;
 }
 
-.profile #projects ul li.project .shared p {
+.profile ul#projects li.project .shared p {
 	padding-left:100px;
 	background: url(../images/logo-mini.png) no-repeat 63px top;
 }
 
-.profile #projects ul li.project a {
+.profile ul#projects li.project a {
 	position:absolute;
 	bottom: 10px;
 	display:block;
@@ -952,17 +952,17 @@ background: #EAE7E4;
 	font-weight:bold;
 }
 
-.profile #projects ul li.project a.info {
+.profile ul#projects li.project a.info {
 	left:10px;
 	background: #C1D3E2;
 	}
 	
-.profile #projects ul li.project a.share {
+.profile ul#projects li.project a.share {
 	right:10px;
 	background: #72A9CE;
 	}
 
-.profile #projects ul li.project img {
+.profile ul#projects li.project img {
 	margin:0 auto 7px auto;
 	display: block;
 }
