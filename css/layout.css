@@ -746,7 +746,7 @@ background: #EAE7E4;
 	border-bottom: solid 2px #555555;
 	padding:16px 0 20px 0;
 	position:relative;
-	margin-bottom:20px;
+	margin-bottom:23px;
 }
 
 .profile #user #detail {
@@ -789,13 +789,16 @@ background: #EAE7E4;
 	bottom: 1px;
 	right:88px;
 	font-size:.7em;
-	height:17px;
-
+	height:14px;
+	background: url(../images/get-url.png) no-repeat left top;
+	padding-top:2px;
+	padding-bottom:1px;
+	padding-left:40px;
 }
 
 .profile #user #detail .url,
 .profile #user #detail .get-touch {
-	padding: 2px 0 1px 0;
+	
 }
 
 .profile #user #detail .url {
@@ -806,8 +809,6 @@ background: #EAE7E4;
 
 .profile #user #detail .get-touch {
 	color: #58595B;
-	padding-left: 40px;
-	background: url(../images/get-url.png) no-repeat left top;
 	margin-right: 15px;
 }
 
@@ -865,7 +866,7 @@ background: #EAE7E4;
 	visibility:hidden !important;
 }
 
-.cufon-ready .profile #user #share li.gifts p .cufon-canvas {
+.cufon-ready .profile #user #share li.gifts p .cufon {
 	width:45px !important;
 }
 
@@ -965,22 +966,28 @@ background: #EAE7E4;
 
 .profile ul#projects li.project a {
 	position:absolute;
-	bottom: 10px;
+	bottom: 8px;
 	display:block;
 	height:20px;
 	color: #fff;
 	font-style:italic;
 	font-weight:bold;
+	font-family: "Times New Roman";
+	padding:1px 7px;
+	
 }
 
 .profile ul#projects li.project a.info {
 	left:10px;
-	background: #C1D3E2;
+	background-color: rgba(193, 211, 226, .6);
+	/*background: #C1D3E2;*/
 	}
 	
 .profile ul#projects li.project a.share {
 	right:10px;
-	background: #72A9CE;
+	background: #72A9CE url(../images/shared-arrow.png) no-repeat right top;
+	padding-right:18px;
+	word-spacing:-.10em;
 	}
 
 .profile ul#projects li.project img {
@@ -991,7 +998,7 @@ background: #EAE7E4;
 .profile #sidebar {
 	width:188px;
 	float:right;
-	padding:0 10px 0 10px;
+	padding:0 10px 23px 10px;
 	border: solid 1px #ccc;
 }
 
@@ -1016,14 +1023,21 @@ background: #EAE7E4;
 	border-bottom: dashed 1px #000;
 	}
 
-.profile #content #sidebar li.last {
-	border:none
-}
-
 .profile #content #sidebar li img {
 	float: left;
-	margin-right: 5px;
+	margin-right: 17px;
 }
+
+.profile #content #sidebar li h4 {
+	letter-spacing:-.05em;
+}
+
+.profile #content #sidebar li p {
+	font-family: "Times New Roman";
+	font-weight:bold;
+	font-style:italic;
+	font-size:.75em;
+	}
 
 
 /* Project */

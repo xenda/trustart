@@ -25,3 +25,16 @@
 .store-detail .ie #content #detail p.desc {
 	letter-spacing:0em;
 }
+
+.profile .ie #user #share li.gifts small{
+	margin-left:0px;
+	}
+	
+.cufon-ready .profile .ie #user #share li.gifts small{
+	margin-left:7px;
+}
+
+.profile .ie ul#projects li.project a.info {
+	background:none;
+	background: url(../images/info-bg.png) repeat;
+}
