@@ -790,7 +790,7 @@ background: #EAE7E4;
 	right:88px;
 	font-size:.7em;
 	height:14px;
-	background: url(../images/get-url.png) no-repeat left top;
+	background: url(../images/get-url.png) no-repeat 8px top;
 	padding-top:2px;
 	padding-bottom:1px;
 	padding-left:40px;
@@ -809,7 +809,8 @@ background: #EAE7E4;
 
 .profile #user #detail .get-touch {
 	color: #58595B;
-	margin-right: 15px;
+	margin-right: 7px;
+	font-weight:bold;
 }
 
 .profile #user #share {

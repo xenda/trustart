@@ -26,6 +26,16 @@
 	letter-spacing:0em;
 }
 
+.profile #ie7 #user #share li.gifts {
+	margin-right:45px;
+	width:115px;
+}
+
+.cufon-ready .profile #ie7 #user #share li.gifts {
+	margin-right:40px;
+	width:120px;
+}
+
 .profile .ie #user #share li.gifts small{
 	margin-left:0px;
 	}
