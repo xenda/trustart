@@ -789,6 +789,7 @@ background: #EAE7E4;
 	right:88px;
 	font-size:.7em;
 	height:17px;
+
 }
 
 .profile #user #detail .url,
@@ -853,10 +854,18 @@ background: #EAE7E4;
 	width:105px;
 }
 
-.profile #user #share li.gifts span{
+.profile #user #share li.gifts small{
 	margin-left:5px;
 	font-size:16px;
 	letter-spacing:0;
+}
+
+.cufon-loading .profile #user #share p {
+	visibility:hidden !important;
+}
+
+.cufon-ready .profile #user #share li.gifts p .cufon-canvas {
+	width:45px !important;
 }
 
 .profile #user #share li h4{
