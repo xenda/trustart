@@ -1045,6 +1045,7 @@ span.numbers,
 
 .project .meta {
 	padding-top:5px;
+	margin-bottom:7px;	
 }
 
 .project .meta h2 {
@@ -1060,8 +1061,8 @@ span.numbers,
 	color:#BD312B;
 	font-family:"Times New Roman";
 	font-style:italic;
-	letter-spacing:0.05em;
-	word-spacing:-0.1em;
+	letter-spacing:.05em;
+	word-spacing:.05em;
 	font-weight:bold;
 	height:16px;
 	margin-bottom:15px;
@@ -1069,7 +1070,6 @@ span.numbers,
 
 .project .meta ul {
 	height:30px;
-	margin-bottom:10px;
 }
 
 .project .meta li {
@@ -1117,12 +1117,12 @@ span.numbers,
 	float:left;
 }
 
-.project #content .content {
+.project #project {
 	border-bottom: dashed 1px #000;
 	padding-bottom: 10px;	
 }
 
-#project .content p{
+.project #project p{
 	font-size:.75em;
 	word-spacing:.05em;
 	line-height:1.6em;
