@@ -9,7 +9,7 @@
 <link href="css/layout.css" type="text/css" rel="stylesheet" />
 <!--[if IE]><link href="css/ie.css" type="text/css" rel="stylesheet" /><![endif]-->
 </head>
-<body class="sessions inbox loggedin">
+<body class="projects">
 	<!--[if IE]><div class="ie"><![endif]-->
 	<!--[if IE 6]><div id="ie6"><![endif]-->
 	<!--[if IE 7]><div id="ie7"><![endif]-->
@@ -24,40 +24,50 @@
 				<li><a href="#"><span>the</span> store</a></li>
 			</ul>
 			<div id="login-box">
-				<a href="#">my account</a>
+				<a href="#">sign in</a> <span class="or">or</span> <a href="#">register</a>
 			</div>
 		</div>
 		<div id="container">
 			<div id="content">
-				<h2>messages</h2>
-				<ul class="navigation">
-					<li class="active"><a href="#">inbox</a></li>
-					<li><a href="#">send</a></li>
+				<h2>Projects</h2>
+				<ul>
+					<li class="top">
+						<img src="images/project-1.jpg" width="207" height="113" alt="" title="" />
+						<h3>the vulture project</h3>
+						<h4>jhon doe</h4>
+						<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+						<a href="#" title="Learn more" class="more">learn more</a>
+					</li>
+					<li class="top">
+						<img src="images/project-3.jpg" width="207" height="113" alt="" title="" />
+						<h3>the vulture project</h3>
+						<h4>jhon doe</h4>
+						<p>When Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+						<a href="#" title="Learn more" class="more">learn more</a>
+					</li>
+					<li class="top last">
+						<img src="images/project-1.jpg" width="207" height="113" alt="" title="" />
+						<h3>the vulture project</h3>
+						<h4>jhon doe</h4>
+						<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+						<a href="#" title="Learn more" class="more">learn more</a>
+					</li>
+					<li>
+						<img src="images/project-3.jpg" width="207" height="113" alt="" title="" />
+						<h3>the vulture project</h3>
+						<h4>jhon doe</h4>
+						<p>One morning, when Gregor Samsa woke from troubled dreams.</p>
+						<a href="#" title="Learn more" class="more">learn more</a>
+					</li>
+					<li class="last">
+						<img src="images/project-2.jpg" width="207" height="113" alt="" title="" />
+						<h3>the vulture project</h3>
+						<h4>jhon doe</h4>
+						<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+						<a href="#" title="Learn more" class="more">learn more</a>
+					</li>					
 				</ul>
-				<table id="messages">
-					<tr class="read">
-						<td class="to"><span></span>to person's name</td>
-						<td class="subject">subject of message goes here</td>
-						<td class="date">May 12, 2010</td>
-						<td class="action"><a href="#" class="reply">reply</a><a href="#" class="delete">delete</a></td>
-					</tr>
-					<tr class="unread">
-						<td class="to"><span></span>to person's name</td>
-						<td class="subject">subject of message goes here</td>
-						<td class="date">May 12, 2010</td>
-						<td class="action"><a href="#" class="reply">reply</a><a href="#" class="delete">delete</a></td>
-					</tr>
-					<tr class="unread">
-						<td class="to"><span></span>to person's name</td>
-						<td class="subject">subject of message goes here</td>
-						<td class="date">May 12, 2010</td>
-						<td class="action"><a href="#" class="reply">reply</a><a href="#" class="delete">delete</a></td>
-					</tr>					
-				</table>
-				<div class="order">
-					<a href="#" class="up"></a>
-					<a href="#" class="down"></a>
-				</div>
+				<div class="clear"></div>
 			</div>
 		</div>
 	</div>
@@ -105,12 +115,6 @@
 	<!--[if IE]></div><![endif]-->
 	<!--[if IE 6]></div><![endif]-->
 	<!--[if IE 7]></div><![endif]-->
-	<!--[if gte IE 8]></div><![endif]-->
-	<script src="js/cufon-yui.js" type="text/javascript"></script>
-	<script src="fonts/numbers.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		Cufon.replace('span.numbers', { fontFamily: 'Helvetica', color: '-linear-gradient(#8AC5F8, #3380EC)' });
-	</script>
-	<script type="text/javascript">Cufon.now();</script>
+	<!--[if gte IE 8]></div><![endif]-->	
 </body>
 </html>

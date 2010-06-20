@@ -9,7 +9,7 @@
 <link href="css/layout.css" type="text/css" rel="stylesheet" />
 <!--[if IE]><link href="css/ie.css" type="text/css" rel="stylesheet" /><![endif]-->
 </head>
-<body class="sessions inbox loggedin">
+<body class="inbox loggedin">
 	<!--[if IE]><div class="ie"><![endif]-->
 	<!--[if IE 6]><div id="ie6"><![endif]-->
 	<!--[if IE 7]><div id="ie7"><![endif]-->
@@ -30,34 +30,30 @@
 		<div id="container">
 			<div id="content">
 				<h2>messages</h2>
-				<ul class="navigation">
-					<li class="active"><a href="#">inbox</a></li>
+				<ul>
+					<li><a href="#">inbox</a></li>
 					<li><a href="#">send</a></li>
 				</ul>
 				<table id="messages">
 					<tr class="read">
-						<td class="to"><span></span>to person's name</td>
-						<td class="subject">subject of message goes here</td>
-						<td class="date">May 12, 2010</td>
-						<td class="action"><a href="#" class="reply">reply</a><a href="#" class="delete">delete</a></td>
+						<td>to person's name</td>
+						<td>subject of message goes here</td>
+						<td>May 12, 2010</td>
+						<td><a href="#" class="reply">reply</a><a href="#" class="delete">delete</a></td>
 					</tr>
 					<tr class="unread">
-						<td class="to"><span></span>to person's name</td>
-						<td class="subject">subject of message goes here</td>
-						<td class="date">May 12, 2010</td>
-						<td class="action"><a href="#" class="reply">reply</a><a href="#" class="delete">delete</a></td>
+						<td>to person's name</td>
+						<td>subject of message goes here</td>
+						<td>May 12, 2010</td>
+						<td><a href="#" class="reply">reply</a><a href="#" class="delete">delete</a></td>
 					</tr>
 					<tr class="unread">
-						<td class="to"><span></span>to person's name</td>
-						<td class="subject">subject of message goes here</td>
-						<td class="date">May 12, 2010</td>
-						<td class="action"><a href="#" class="reply">reply</a><a href="#" class="delete">delete</a></td>
+						<td>to person's name</td>
+						<td>subject of message goes here</td>
+						<td>May 12, 2010</td>
+						<td><a href="#" class="reply">reply</a><a href="#" class="delete">delete</a></td>
 					</tr>					
 				</table>
-				<div class="order">
-					<a href="#" class="up"></a>
-					<a href="#" class="down"></a>
-				</div>
 			</div>
 		</div>
 	</div>
