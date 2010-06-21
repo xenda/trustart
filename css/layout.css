@@ -1656,7 +1656,7 @@ span.numbers,
 	padding: 3px 10px;
 }
 
-.reply form {
+.session form {
 	margin-top:10px;
 }
 
@@ -1665,22 +1665,27 @@ span.numbers,
 	width:490px;
 }
 
+.update form,
+.update form fieldset {
+	width:565px;
+}
+
 .reply form fieldset {
 	float:left;
 	background:#F2EFEC;
 	padding:0 0 5px 0;
 }
 
-.reply form ul{
+.sessions form ul{
 	padding-top:17px;
 }
 
-.reply form li {
+.sessions form li {
 	height:32px;
 	margin-bottom:7px;
 }
 
-.reply form li input{
+.sessions form li input{
 	width:385px;
 	float:right;
 	margin-right:15px;
@@ -1689,16 +1694,29 @@ span.numbers,
 	border:solid 1px #d8d8d9;
 }
 
-.reply form li.message {
+.sessions form li.message {
 	padding:0 15px;
 	height:auto;
 }
 
-.reply form li.message textarea {
+.sessions form li.message textarea {
 	width:100%;
 	border:solid 1px #d8d8d9;
 	height:160px;
 }
+
+.update form li.message {
+	padding:0;
+	height:82px;
+}
+
+.update form li.message textarea {
+	width:396px;
+	float:right;
+	margin:0 15px 0 0;
+	height:80px;
+	
+	}
 
 .sessions form li label{
 	float:left;
@@ -1706,6 +1724,10 @@ span.numbers,
 	text-align:right;
 	height:32px;
 	line-height:32px;
+}
+
+.update form li label{
+	width:145px;
 }
 
 .sessions a.cancel {
@@ -1726,3 +1748,22 @@ span.numbers,
 	text-align:right;
 	margin-top:8px;
 }
+
+.sessions form li.checkbox {
+	padding-left:155px;
+	height:15px;
+}
+
+.sessions form li.checkbox label{
+	float:right;
+	width:375px;
+	text-align:left;
+	font-size:.75em;
+	margin-right:15px;
+	height:15px;
+	line-height:15px;
+	}
+.sessions form li.checkbox input{
+	float:left;
+	margin:2px 0 0 0;
+	}	
