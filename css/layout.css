@@ -1878,6 +1878,7 @@ span.numbers,
 .sessions form li.checkbox input{
 	float:left;
 	margin:2px 0 0 0;
+	width:13px;
 	}	
 
 .message #message{
