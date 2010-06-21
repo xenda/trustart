@@ -1610,11 +1610,11 @@ span.numbers,
 	font-size:.8em;
 }
 
-.sessions #messages .action {
+.sessions .action {
 	width:135px;
 }
 	
-.sessions #messages .action a {
+.sessions .action a {
 	text-align:center;
 	padding:0 5px;
 	font-family:"Times New Roman", Times, serif;
@@ -1624,11 +1624,11 @@ span.numbers,
 	margin:0 7px;
 }
 
-.sessions #messages .action a.reply {
+.sessions .action a.reply {
 	background:#C1DDF3;
 }
 
-.sessions #messages .action a.delete {
+.sessions .action a.delete {
 	background:#EFA49B;
 }
 
@@ -1767,3 +1767,36 @@ span.numbers,
 	float:left;
 	margin:2px 0 0 0;
 	}	
+
+.message #message{
+	margin-top:18px;
+}	
+
+.message #message h3{
+	padding-left: 10px;
+	margin-right:25px;
+	float:left;
+	height:21px;
+	line-height:21px;
+}
+
+.message #message .container {
+	background:#F2EFEC;
+	margin-top:18px;
+	width:425px;
+	padding:22px 33px;
+}
+
+.message #message .container .content{
+	margin:22px 0;
+	font-size:.8em;
+}
+
+.message .action {
+	width:100%;
+	text-align:right;
+}
+
+.message .action .delete{
+	margin:0;
+}
