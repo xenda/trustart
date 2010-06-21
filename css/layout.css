@@ -1536,13 +1536,16 @@ span.numbers,
 	border-bottom:1px dashed #000;
 }
 
+.reply ul.navigation {
+	margin-bottom:8px;
+}
+
 .sessions ul.navigation li {
 	float:left;
 	height:30px;
-
 	text-align:center;
 	background:#F2EFEC;
-	
+	border-right:solid 1px #fff;
 	}
 
 .sessions ul.navigation li.active {
@@ -1645,4 +1648,81 @@ span.numbers,
 
 .sessions .order a.down{
 	background-position: left bottom;
+}
+
+.sessions .back {
+	background-image:none;
+	font-size:.8em;
+	padding: 3px 10px;
+}
+
+.reply form {
+	margin-top:10px;
+}
+
+.reply form,
+.reply form fieldset {
+	width:490px;
+}
+
+.reply form fieldset {
+	float:left;
+	background:#F2EFEC;
+	padding:0 0 5px 0;
+}
+
+.reply form ul{
+	padding-top:17px;
+}
+
+.reply form li {
+	height:32px;
+	margin-bottom:7px;
+}
+
+.reply form li input{
+	width:385px;
+	float:right;
+	margin-right:15px;
+	height:18px;
+	padding:6px 5px;
+	border:solid 1px #d8d8d9;
+}
+
+.reply form li.message {
+	padding:0 15px;
+	height:auto;
+}
+
+.reply form li.message textarea {
+	width:100%;
+	border:solid 1px #d8d8d9;
+	height:160px;
+}
+
+.sessions form li label{
+	float:left;
+	width:65px;
+	text-align:right;
+	height:32px;
+	line-height:32px;
+}
+
+.sessions a.cancel {
+	background:#D76759;
+	padding:3px 10px;
+	color:#fff;
+}
+
+.sessions input.submit {
+	height:25px;
+	border:none;
+	background-image:none;
+	padding:3px 10px;
+}
+
+.sessions fieldset.buttons {
+	background:none;
+	text-align:right;
+	margin-top:8px;
 }

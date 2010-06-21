@@ -9,7 +9,7 @@
 <link href="css/layout.css" type="text/css" rel="stylesheet" />
 <!--[if IE]><link href="css/ie.css" type="text/css" rel="stylesheet" /><![endif]-->
 </head>
-<body class="sessions reply loggedin">
+<body class="write loggedin">
 	<!--[if IE]><div class="ie"><![endif]-->
 	<!--[if IE 6]><div id="ie6"><![endif]-->
 	<!--[if IE 7]><div id="ie7"><![endif]-->
@@ -30,24 +30,21 @@
 		<div id="container">
 			<div id="content">
 				<h2>messages</h2>
-				<ul class="navigation">
+				<ul>
 					<li><a href="#">inbox</a></li>
 					<li><a href="#">send</a></li>
 				</ul>
-				<a href="#" class="back more">back to message</a>
+				<a href="#">back to message</a>
 				<form action="#" enctype="text/plain" method="post">
 					<fieldset>
 						<ul>
 							<li><label for="to">to</label><input type="text" id="to" name="to" /></li>
-							<li><label for="subject">from</label><input type="text" id="subject" name="subject" /></li>
-							<li class="message"><textarea id="message" name="message"></textarea></li>
-						</ul>					
+							<li><label for="subject">to</label><input type="text" id="subject" name="subject" /></li>
+							<li><textarea id="message" name="message"></textarea></li>
+							<li class="buttons"><a href="#" class="cancel">cancel</a><input type="submit" id="submit" name="submit" class="submit" value="done"/></li>
+						</ul>
+						
 					</fieldset>
-					<fieldset class="buttons">
-						<a href="#" class="more cancel">cancel</a>
-						<input type="submit" id="submit" name="submit" class="more submit" value="send"/>
-					</fieldset>
-					<div class="clear"></div>
 				</form>
 			</div>
 		</div>
