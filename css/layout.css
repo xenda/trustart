@@ -1792,6 +1792,10 @@ span.numbers,
 	width:145px;
 }
 
+.update form li.last{
+	margin-bottom:25px;
+}
+
 .sessions a.cancel {
 	background:#D76759;
 	padding:3px 10px;
@@ -1805,10 +1809,56 @@ span.numbers,
 	padding:3px 10px;
 }
 
+.sessions div.meta,
 .sessions fieldset.buttons {
 	background:none;
-	text-align:right;
-	margin-top:8px;
+	text-align:left;
+	margin-top:20px;
+	padding-top:15px;
+	border-top:dashed 1px #000;
+	margin-left:153px;
+	width:397px;
+}
+
+.sessions div.meta,
+.sessions div.meta ul {
+	border:none;
+	padding:0;
+}
+
+.sessions div.meta li{
+	float:left;
+	padding: 0 5px;
+	border-right: solid 1px #555555;
+	height:13px;
+	line-height:13px;
+}
+
+.sessions div.meta li.first {
+	padding-left:0;
+}
+
+.sessions div.meta li.last {
+	padding-right:0;
+	border:none;
+}
+
+.sessions div.meta li,
+.sessions div.meta li a {
+	color:#555555;
+	font-size:.82em;
+}
+
+.sessions div.meta li a span{
+	color:#555555;
+	}
+
+.sessions div.meta li.cancel a {
+	color:#59ACD7;
+}
+
+.sessions div.meta li.cancel {
+	border-right-color:#59ACD7;
 }
 
 .sessions form li.checkbox {
