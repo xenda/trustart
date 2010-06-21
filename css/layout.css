@@ -129,7 +129,16 @@ h1#logo a span {
 	display:block;
 	padding: 0 10px;
 	height: 100%;
-	color: #808285;
+	color:#ccc;
+	/*
+color: #808285;
+*/
+}
+
+#nav li.active a,
+#nav li a:hover{
+	color:#636365;
+	text-decoration:none;
 }
 
 #nav li span {
@@ -583,6 +592,59 @@ background: #EAE7E4;
 	position:relative;
 	height:395px;
 }
+
+.projects #meta {
+	height:140px;
+	border-bottom:solid 3px #000;
+	margin-bottom:30px;
+}
+
+.projects #meta ul {
+	width:515px;
+	float:left;
+	list-style:disc;
+	padding:15px 0 0 15px;
+}
+
+.projects #meta li {
+	border:none !important;
+	padding:0;
+	height:auto;
+	width:auto;
+	margin-bottom:10px;
+	color:#555555;
+}
+
+.projects #meta  .gift {
+	float:right;
+	width:430px;
+	height:135px;
+	border-left:1px dashed #000;
+}
+
+.projects #meta  .gift h3{
+	font-weight:normal;
+	text-align:center;
+	font-style:italic;
+	font-size:.9em;
+	font-family: "Times New Roman", Times, serif;
+	margin-top:12px;
+	color:#555555;
+}
+
+.projects #meta  .gift a {
+	width:173px;
+	height:109px;
+	display:block;
+	margin:0 auto;
+	background:url("../images/make-gift.png") no-repeat;
+}
+
+.projects #meta  .gift a span {
+	display:none;
+	visibility:hidden;
+}
+
 
 .projects #content li.top,
 .store-list #content li.top {
