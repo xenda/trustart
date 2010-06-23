@@ -269,7 +269,65 @@ color: #808285;
 
 #banner {
 	margin-bottom:16px;
-	height:266px;
+	height:230px;
+	position:relative;
+	padding:30px 0 0 182px;
+	background:url(../images/statue.jpg) no-repeat left bottom;
+	border-bottom:solid 4px #555556;
+}
+
+#banner h2{
+	margin-top:30px;
+	font-size:1.8em;
+	line-height:1.25em;
+	font-family:"Times New Roman", Times, serif;
+	word-spacing:.07em;
+	height:72px;
+	margin-bottom:30px;
+}
+
+#banner a{
+	float:left;
+	color:#fff;
+	font-family: "Times New Roman";
+	font-weight:bold;
+	font-style:italic;
+	padding:8px 32px 8px 11px;
+	margin-right:20px;
+	font-size:1.3em;
+	letter-spacing:.02em;
+	background:url(../images/banner-arrow.png) no-repeat right center;
+}
+
+#banner .login-box a,
+#banner .login-box span {
+	color:#58595b;
+	font-size:1em;
+}
+
+#banner .login-box span {
+	font-style:italic;
+	font-family:"Times New Roman";
+}
+
+#banner .login-box a {
+	float:none;
+	background:none;
+	padding:0;
+	margin:0;
+	font-style:normal;
+	text-transform:uppercase;
+	font-family:'Helvetica', Arial;
+}
+
+#banner a.learn {
+	background-color:#F0433B;
+	border:solid 1px #F9B4B1;
+}
+
+#banner a.explore {
+	background-color:#37A4F0;
+	border:solid 1px #AFDBF9;
 }
 
 .home #content {
