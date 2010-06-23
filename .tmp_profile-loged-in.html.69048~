@@ -66,10 +66,7 @@
 								<a href="#" class="what-this">what's this?</a>
 							</li>
 						</ul>
-						<div class="total">
-							<h4>My total shares</h4>
-							<span class="numbers">893</span>
-						</div>
+						<div class="total"></div>
 						<a href="#" class="edit more">edit</a>
 					</div>
 					<div class="clear"></div>
@@ -87,39 +84,20 @@
 							</div>
 						</div>
 						<div class="info">
-							<h3>Share Information</h3>
-							<p class="desc">The value of these shared is linked to the official auction of artworks related to this project. See examples of artworks in the <a href="#">store</a> or read about <a href="#">how shares work</a></p>
+							<h3>the vulture project</h3>
+							<p>The value of these shared is linked to the official auction of artworks related to this project. See examples of artworks in the <a href="#">store</a> or read about <a href="#">how shares work</a></p>
 							<h4>Shares issued for this project:3554</h4>
 							<h4>Auction Date: TBD</h4>
 							<table>
 								<tr class="header">
-									<td class="logo"><div></div><div>100<small>shares</small></div></td>
-									<td class="about" colspan="3">
-										<h4>The Vulture Project, Ch.1</h4>
-										<a href="#" class="more">about</a>
-									</td>
+									<td></td>
+									<td colspan="3"></td>
 								</tr>
 								<tr class="content">
-									<td>
-										<h5>shares</h5>
-										<p class="desc">friends gave</p>
-										<p class="logo">100</p>
-									</td>
-									<td>
-										<h5>gifts</h5>
-										<p class="desc">I made</p>
-										<p class="price">$307</p>
-									</td>
-									<td>
-										<h5>shares</h5>
-										<p class="desc">I gave</p>
-										<p class="">100</p>
-									</td>
-									<td>
-										<h5>gifts</h5>
-										<p class="desc">friends made</p>
-										<p>$3020</p>
-									</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
 								</tr>
 							</table>
 							<div class="nav">
@@ -156,39 +134,20 @@
 							</div>
 						</div>
 						<div class="info">
-							<h3>Share Information</h3>
-							<p class="desc">The value of these shared is linked to the official auction of artworks related to this project. See examples of artworks in the <a href="#">store</a> or read about <a href="#">how shares work</a></p>
+							<h3>the vulture project</h3>
+							<p>The value of these shared is linked to the official auction of artworks related to this project. See examples of artworks in the <a href="#">store</a> or read about <a href="#">how shares work</a></p>
 							<h4>Shares issued for this project:3554</h4>
 							<h4>Auction Date: TBD</h4>
 							<table>
 								<tr class="header">
-									<td class="logo"><div></div><div>100<small>shares</small></div></td>
-									<td class="about" colspan="3">
-										<h4>The Vulture Project, Ch.1</h4>
-										<a href="#" class="more">about</a>
-									</td>
+									<td></td>
+									<td colspan="3"></td>
 								</tr>
 								<tr class="content">
-									<td>
-										<h5>shares</h5>
-										<p class="desc">friends gave</p>
-										<p class="logo">100</p>
-									</td>
-									<td>
-										<h5>gifts</h5>
-										<p class="desc">I made</p>
-										<p class="price">$307</p>
-									</td>
-									<td>
-										<h5>shares</h5>
-										<p class="desc">I gave</p>
-										<p class="">100</p>
-									</td>
-									<td>
-										<h5>gifts</h5>
-										<p class="desc">friends made</p>
-										<p>$3020</p>
-									</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
 								</tr>
 							</table>
 							<div class="nav">
@@ -219,68 +178,9 @@
 							<h3>the vulture project</h3>
 							<h4>jhon doe</h4>
 							<div class="shared"><p>100<small>shares</small></p></div>
-							<div class="nav">
-								<a href="#" rel="info" class="info">info</a>
-								<a href="#" rel="share" class="share">share the gift</a>
-							</div>
+							<a href="#" class="info">info</a>
+							<a href="#" class="share">share the gift</a>
 						</div>
-						<div class="info">
-							<h3>Share Information</h3>
-							<p class="desc">The value of these shared is linked to the official auction of artworks related to this project. See examples of artworks in the <a href="#">store</a> or read about <a href="#">how shares work</a></p>
-							<h4>Shares issued for this project:3554</h4>
-							<h4>Auction Date: TBD</h4>
-							<table>
-								<tr class="header">
-									<td class="logo"><div></div><div>100<small>shares</small></div></td>
-									<td class="about" colspan="3">
-										<h4>The Vulture Project, Ch.1</h4>
-										<a href="#" class="more">about</a>
-									</td>
-								</tr>
-								<tr class="content">
-									<td>
-										<h5>shares</h5>
-										<p class="desc">friends gave</p>
-										<p class="logo">100</p>
-									</td>
-									<td>
-										<h5>gifts</h5>
-										<p class="desc">I made</p>
-										<p class="price">$307</p>
-									</td>
-									<td>
-										<h5>shares</h5>
-										<p class="desc">I gave</p>
-										<p class="">100</p>
-									</td>
-									<td>
-										<h5>gifts</h5>
-										<p class="desc">friends made</p>
-										<p>$3020</p>
-									</td>
-								</tr>
-							</table>
-							<div class="nav">
-								<a href="#" rel="project" class="back">back</a>
-								<a href="#" rel="share" class="share">share the gift</a>
-							</div>
-						</div>
-						<div class="share">
-							<form action="#" method="post">
-								<fieldset>
-									<ul>
-										<li class="email"><label for="email">Friend's Email</label><input name="email" id="email" /></li>
-										<li class="q"><label for="q">How many shares do you want to give?</label><input name="q" id="q" /></li>
-										<li class="submit"><input name="submit" value="" id="submit" class="submit" /></li>
-									</ul>
-								</fieldset>
-							</form>
-							<div class="shared"><p>The vulve project</p></div>
-							<div class="nav">
-								<a href="#" rel="project" class="back">back</a>
-								<div><p>100<small>shares</small></p></div>
-							</div>							
-						</div>			
 					</li>
 					<li>
 						<div class="project">
@@ -288,68 +188,9 @@
 							<h3>the vulture project</h3>
 							<h4>jhon doe</h4>
 							<div class="shared"><p>100<small>shares</small></p></div>
-							<div class="nav">
-								<a href="#" rel="info" class="info">info</a>
-								<a href="#" rel="share" class="share">share the gift</a>
-							</div>
+							<a href="#" class="info">info</a>
+							<a href="#" class="share">share the gift</a>
 						</div>
-						<div class="info">
-							<h3>Share Information</h3>
-							<p class="desc">The value of these shared is linked to the official auction of artworks related to this project. See examples of artworks in the <a href="#">store</a> or read about <a href="#">how shares work</a></p>
-							<h4>Shares issued for this project:3554</h4>
-							<h4>Auction Date: TBD</h4>
-							<table>
-								<tr class="header">
-									<td class="logo"><div></div><div>100<small>shares</small></div></td>
-									<td class="about" colspan="3">
-										<h4>The Vulture Project, Ch.1</h4>
-										<a href="#" class="more">about</a>
-									</td>
-								</tr>
-								<tr class="content">
-									<td>
-										<h5>shares</h5>
-										<p class="desc">friends gave</p>
-										<p class="logo">100</p>
-									</td>
-									<td>
-										<h5>gifts</h5>
-										<p class="desc">I made</p>
-										<p class="price">$307</p>
-									</td>
-									<td>
-										<h5>shares</h5>
-										<p class="desc">I gave</p>
-										<p class="">100</p>
-									</td>
-									<td>
-										<h5>gifts</h5>
-										<p class="desc">friends made</p>
-										<p>$3020</p>
-									</td>
-								</tr>
-							</table>
-							<div class="nav">
-								<a href="#" rel="project" class="back">back</a>
-								<a href="#" rel="share" class="share">share the gift</a>
-							</div>
-						</div>
-						<div class="share">
-							<form action="#" method="post">
-								<fieldset>
-									<ul>
-										<li class="email"><label for="email">Friend's Email</label><input name="email" id="email" /></li>
-										<li class="q"><label for="q">How many shares do you want to give?</label><input name="q" id="q" /></li>
-										<li class="submit"><input name="submit" value="" id="submit" class="submit" /></li>
-									</ul>
-								</fieldset>
-							</form>
-							<div class="shared"><p>The vulve project</p></div>
-							<div class="nav">
-								<a href="#" rel="project" class="back">back</a>
-								<div><p>100<small>shares</small></p></div>
-							</div>							
-						</div>			
 					</li>
 					<li>
 						<div class="project">
@@ -357,68 +198,9 @@
 							<h3>the vulture project</h3>
 							<h4>jhon doe</h4>
 							<div class="shared"><p>100<small>shares</small></p></div>
-							<div class="nav">
-								<a href="#" rel="info" class="info">info</a>
-								<a href="#" rel="share" class="share">share the gift</a>
-							</div>
+							<a href="#" class="info">info</a>
+							<a href="#" class="share">share the gift</a>
 						</div>
-						<div class="info">
-							<h3>Share Information</h3>
-							<p class="desc">The value of these shared is linked to the official auction of artworks related to this project. See examples of artworks in the <a href="#">store</a> or read about <a href="#">how shares work</a></p>
-							<h4>Shares issued for this project:3554</h4>
-							<h4>Auction Date: TBD</h4>
-							<table>
-								<tr class="header">
-									<td class="logo"><div></div><div>100<small>shares</small></div></td>
-									<td class="about" colspan="3">
-										<h4>The Vulture Project, Ch.1</h4>
-										<a href="#" class="more">about</a>
-									</td>
-								</tr>
-								<tr class="content">
-									<td>
-										<h5>shares</h5>
-										<p class="desc">friends gave</p>
-										<p class="logo">100</p>
-									</td>
-									<td>
-										<h5>gifts</h5>
-										<p class="desc">I made</p>
-										<p class="price">$307</p>
-									</td>
-									<td>
-										<h5>shares</h5>
-										<p class="desc">I gave</p>
-										<p class="">100</p>
-									</td>
-									<td>
-										<h5>gifts</h5>
-										<p class="desc">friends made</p>
-										<p>$3020</p>
-									</td>
-								</tr>
-							</table>
-							<div class="nav">
-								<a href="#" rel="project" class="back">back</a>
-								<a href="#" rel="share" class="share">share the gift</a>
-							</div>
-						</div>
-						<div class="share">
-							<form action="#" method="post">
-								<fieldset>
-									<ul>
-										<li class="email"><label for="email">Friend's Email</label><input name="email" id="email" /></li>
-										<li class="q"><label for="q">How many shares do you want to give?</label><input name="q" id="q" /></li>
-										<li class="submit"><input name="submit" value="" id="submit" class="submit" /></li>
-									</ul>
-								</fieldset>
-							</form>
-							<div class="shared"><p>The vulve project</p></div>
-							<div class="nav">
-								<a href="#" rel="project" class="back">back</a>
-								<div><p>100<small>shares</small></p></div>
-							</div>							
-						</div>			
 					</li>
 					
 				</ul>

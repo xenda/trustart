@@ -640,7 +640,7 @@ background: #EAE7E4;
 	background:url("../images/make-gift.png") no-repeat;
 }
 
-.projects #meta  .gift a span {
+.projects #meta .gift a span {
 	display:none;
 	visibility:hidden;
 }
@@ -808,7 +808,7 @@ background: #EAE7E4;
 
 .profile #user {
 	border-bottom: solid 2px #555555;
-	padding:16px 0 20px 0;
+	padding:16px 0 6px 0;
 	position:relative;
 	margin-bottom:23px;
 }
@@ -818,6 +818,7 @@ background: #EAE7E4;
 	height:185px;
 	width:370px;
 	padding-right:40px;
+	padding-bottom:15px;
 	border-right: dashed 1px #000000;
 	position:relative;
 }
@@ -850,7 +851,7 @@ background: #EAE7E4;
 
 .profile #user #detail .contact {
 	position: absolute;
-	bottom: 1px;
+	bottom: 20px;
 	right:88px;
 	font-size:.7em;
 	height:14px;
@@ -879,48 +880,45 @@ background: #EAE7E4;
 
 .profile #user #share {
 	float:right;
-	width:500px;
-	padding-top:43px;
+	width:550px;
 }
 
 .profile #user #share li{
 	float:left;
-	width:135px;
+	width:133px;
+	padding-right:2px;
+	border-right: solid 1px #000;
 	margin:0;
 	position:relative;
-	height:96px;
+	height:135px;
 }
 
-.profile #user #share li.shares{
-	margin-right:70px;
+.profile #user #share li.last{
+	margin-right:0px;
+	border:none;
 }
 
 span.numbers,
 .profile #user #share li p small {
-	font-weight:bold;
 	color:#59A6F3;
-	font-size:2.75em;
-	letter-spacing:-0.1em;	
+	font-size:1.7em;
+	letter-spacing:0em;	
 }
 
 .profile #user #share li a {
-	position:absolute;
-	right:7px;
-	bottom:0;
 	color:#83C1F7;
 	font-size:.7em;
 	text-decoration:underline;
+	text-align:center;
+	display:block;
+	width:80px;
+	margin:10px auto 0 auto;
 }
 
 .profile #user #share li.shares p{
-	background: url(../images/logo-mini.png) no-repeat 4px 6px;
-	padding-left:45px;
+	background: url(../images/logo-mini-mini.png) no-repeat 24px center;
+	padding-left:52px;
 	}
-
-.profile #user #share li.gifts{
-	margin-right:55px;
-	width:105px;
-}
 
 .profile #user #share li.gifts small{
 	margin-left:5px;
@@ -934,14 +932,54 @@ span.numbers,
 
 .profile #user #share li h4{
 	text-align:center;
-	font-style:italic;
 	height:16px;
-	margin-bottom:15px;
-	font-weight:1.05em;
+	margin-bottom:3px;
 	font-family:"Times New Roman";
-	text-transform:capitalize;
 	font-weight:bold;
-	color:#8F8C87;
+	color:#bd313b;
+	text-transform:uppercase;
+}
+
+.profile #user #share li h5{
+	text-align:center;
+	font-size:.7em;
+	width:70px;
+	margin:0 auto;
+	color:#58585b;
+	line-height:14px;
+	margin-bottom:20px;
+}
+
+.profile #user #share li.gifts p{
+	text-align:center;
+}
+
+.profile #user #share ul {
+	height:149px;
+	border-bottom:dashed 1px #000;
+}
+
+.profile #user #share .total {
+	position:relative;
+	height:50px;
+	margin-left:30px;
+	width:300px;
+}
+
+.profile #user #share .total h4 {
+	float:left;
+	margin:20px 0 0 0px;
+}
+
+.profile #user #share .total span.numbers {
+	float:right;
+	margin:0;
+	height:100%;
+	width:105px;
+	padding:5px 0 0 0;
+	text-align:right;
+	font-size:2.6em;
+	background:url(../images/logo-mini.png) no-repeat left center;
 }
 
 .profile #user #share .edit{
@@ -960,8 +998,7 @@ span.numbers,
 	width:740px;
 }
 
-.profile ul#projects li.project {
-	background: url(../images/bg-proyect.jpg) no-repeat;
+.profile ul#projects li {
 	width: 207px;
 	height: 249px;
 	border: solid 5px #F2EFEC;
@@ -969,26 +1006,42 @@ span.numbers,
 	margin:0 14px 14px 0;
 	padding: 10px;
 	position:relative;
+	background: url(../images/bg-proyect.jpg) no-repeat;
 }
+
+.profile ul#projects li div.project,
+.profile ul#projects li div.info,
+.profile ul#projects li div.share {
+	height: 249px;
+	width: 207px;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+
+.profile ul#projects li div.info,
+.profile ul#projects li div.share {
+	display:none;	
+	}
 
 .profile ul#projects li.last {
 	margin-right:0;
 }
 
-.profile ul#projects li.project h3,
-.profile ul#projects li.project h4{
+.profile ul#projects li div.project h3,
+.profile ul#projects li div.project h4{
 	text-align:center;
 	color:#58595B;
 }
 
-.profile ul#projects li.project h3 {
+.profile ul#projects li div.project h3 {
 	font-size:1.25em;
 	font-weight:bold;
 	height:20px;
 	margin-bottom:1px;
 }
 
-.profile ul#projects li.project h4{
+.profile ul#projects li div.project h4{
 	font-style:italic;
 	height:22px;
 	margin-bottom:6px;
@@ -996,19 +1049,30 @@ span.numbers,
 	font-weight:bold;
 }
 
-.profile ul#projects li.project .shared,
-.profile ul#projects li.project .shared p {
+.profile ul#projects li div.project .shared,
+.profile ul#projects li div.share .shared,
+.profile ul#projects li div.project .shared p,
+.profile ul#projects li div.share .shared p {
 	height:33px;
 }
 
-.profile ul#projects li.project .shared {
+.profile ul#projects li div.share .shared p {
+	line-height:33px;
+	text-align:center;
+	font-size:1.2em;
+	font-weight:bold;
+	color:#58585b;
+}
+
+.profile ul#projects li div.share .shared,
+.profile ul#projects li div.project .shared {
 	border: 1px dashed #000;
 	border-left:none;
 	border-right:none;
 	padding: 6px 0 8px 0;
 }
 
-.profile ul#projects li.project .shared p {
+.profile ul#projects li div.project .shared p {
 	padding-left:100px;
 	background: url(../images/logo-mini.png) no-repeat 64px center;
 	color:#4187E3;
@@ -1016,7 +1080,9 @@ span.numbers,
 	font-size:1.4em;
 }
 
-.profile ul#projects li.project .shared p small {
+.profile ul#projects li div.info table .header td.logo small,
+.profile ul#projects li div.project .shared p small,
+.profile ul#projects li div.share .nav div p small {
 	color:#0F43D3;
 	display:block;
 	font-family:"Times New Roman";
@@ -1026,7 +1092,194 @@ span.numbers,
 	padding-left:3px;
 }
 
-.profile ul#projects li.project a {
+.profile ul#projects li div.share form,
+.profile ul#projects li div.share fieldset {
+	width:207px;
+}
+
+.profile ul#projects li div.share form ul,
+.profile ul#projects li div.share form li {
+	width: 207px;
+	background:none;
+	border:none;
+	float:none;
+	margin:0;
+	padding:0;
+}
+
+.profile ul#projects li div.share form ul {
+	margin-bottom:12px;
+}
+
+.profile ul#projects li div.share form li {
+	margin-bottom:3px;
+	height:30px;
+}
+
+.profile ul#projects li div.share form li.email {
+	height:53px;
+}
+
+.profile ul#projects li div.info h3,
+.profile ul#projects li div.info h4,
+.profile ul#projects li div.info p.desc,
+.profile ul#projects li div.share form li label{
+	font-size:.8em;
+	font-weight:bold;
+	color:#58585b;
+}
+
+.profile ul#projects li div.info h3 {
+	margin-bottom:3px;
+}
+
+.profile ul#projects li div.info h4 {
+	font-size:.7em;
+}
+
+.profile ul#projects li div.info p.desc {
+	font-weight:normal;
+	font-size:.7em;
+	height:45px;
+	margin-bottom:7px;
+	overflow:hidden;
+}
+
+.profile ul#projects li div.info table{
+	margin-top:8px;
+	border-bottom:dashed 1px #000;
+	border-top:dashed 1px #000;
+	width:208px;
+	position:relative;
+}
+
+.profile ul#projects li div.info table .header td {
+	width:156px;
+}
+
+.profile ul#projects li div.info table .header td.logo,
+.profile ul#projects li div.info table .content td {
+	width:52px;
+	}
+
+.profile ul#projects li div.info table .header td{
+	border-bottom:dashed 1px #000;
+	height:55px;
+	}
+	
+.profile ul#projects li div.info table .header td h4{
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	font-size:.75em;
+}
+
+.profile ul#projects li div.info table .header td.about a.more{
+	font-size:.75em;
+	margin-left:10px;
+}
+
+.profile ul#projects li div.info table tr.header td.logo{
+	border-right:dashed 1px #000;
+	background: url(../images/logo-mini-mini.png) no-repeat center 2px;
+	text-align:center;
+	padding:0px;
+}
+
+.profile ul#projects li div.info table tr.header td.logo img{
+	display:block;
+}
+
+.profile ul#projects li div.info table .content td{
+	border-right:solid 1px #B5BBC0;
+	background:url(../images/info-table-bg.png) repeat;
+	text-align:center;
+}
+
+.profile ul#projects li div.info table .content td.last{
+	border:none;
+}
+
+.profile ul#projects li div.info table .content td h5{
+	color:#4E545A;
+	font-size:.75em;
+	margin-top:5px;
+	margin-bottom:3px;
+}
+
+.profile ul#projects li div.info table .content td .desc{
+	color:#fff;
+	letter-spacing:0.1em;
+	margin:0;
+	height:22px;
+	margin-bottom:4px;
+}
+
+.profile ul#projects li div.info table .content td .price,
+.profile ul#projects li div.info table .content td .logo{
+	color:#fff;
+	font-size:.9em;
+	margin-bottom:3px;
+}
+
+.profile ul#projects li div.share form li input{
+	border:solid 1px #ccc;
+	padding:6px 3px;
+	height:17px;
+}
+
+.profile ul#projects li div.share form li.email input{
+	width:199px;
+	margin-top:6px;
+}
+
+.profile ul#projects li div.share form li.q {
+	height:31px;
+	margin-bottom:10px;
+}
+
+.profile ul#projects li div.share form li.q label{
+	float:left;
+	width:130px;
+}
+
+.profile ul#projects li div.share form li.q input{
+	float:right;
+	width:66px;
+}
+
+.profile ul#projects li div.share form li.submit {
+	height:60px;
+}
+
+.profile ul#projects li div.share form li.submit input {
+	display:block;
+	width:111px;
+	height:60px;
+	margin:0 auto;
+	background:url(../images/share-gift.png) no-repeat;
+	border:none;
+	padding:0;
+}
+
+.profile ul#projects li div.share .nav div {
+	position:absolute;
+	bottom:-6px;
+	right:0;
+	padding-left:33px;
+	background: url(../images/logo-mini.png) no-repeat left center;
+	height:33px;
+}
+
+.profile ul#projects li div.info table .header td.logo,
+.profile ul#projects li div.share .nav div p{
+	color:#4187E3;
+	font-size:1.2em;
+	font-weight:bold;
+	padding-top:4px;
+}
+
+.profile ul#projects li div.nav a {
 	position:absolute;
 	bottom: 8px;
 	display:block;
@@ -1036,23 +1289,29 @@ span.numbers,
 	font-weight:bold;
 	font-family: "Times New Roman";
 	padding:1px 7px;
-	
 }
 
-.profile ul#projects li.project a.info {
-	left:10px;
+.profile ul#projects li div.nav a.info,
+.profile ul#projects li div.nav a.back {
+	left:0px;
+	bottom:0px;
 	background-color: rgba(193, 211, 226, .6);
 	/*background: #C1D3E2;*/
 	}
+
+.profile ul#projects li div.nav a.back {
+	background:#72A9CE;
+}
 	
-.profile ul#projects li.project a.share {
-	right:10px;
+.profile ul#projects li div.nav a.share {
+	right:0px;
+	bottom:0px;
 	background: #72A9CE url(../images/shared-arrow.png) no-repeat right top;
 	padding-right:18px;
 	word-spacing:-.10em;
 	}
 
-.profile ul#projects li.project img {
+.profile ul#projects li div.project img {
 	margin:0 auto 10px auto;
 	display: block;
 }
