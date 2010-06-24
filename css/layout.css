@@ -2044,6 +2044,10 @@ span.numbers,
 	width:490px;
 }
 
+.reply form {
+	margin-top:10px;
+}
+
 .update form,
 .update form fieldset {
 	width:565px;
@@ -2053,6 +2057,12 @@ span.numbers,
 	float:left;
 	background:#F2EFEC;
 	padding:0 0 5px 0;
+}
+
+.reply form fieldset.buttons {
+	background:none;
+	text-align:right;
+	margin-top:8px;
 }
 
 .sessions form ul{
@@ -2127,7 +2137,7 @@ span.numbers,
 }
 
 .sessions div.meta,
-.sessions fieldset.buttons {
+.update fieldset.buttons {
 	background:none;
 	text-align:left;
 	margin-top:20px;
@@ -2198,7 +2208,7 @@ span.numbers,
 	width:13px;
 	}	
 
-.message #message{
+body.message #message{
 	margin-top:18px;
 }	
 
