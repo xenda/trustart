@@ -9,7 +9,7 @@
 <link href="css/layout.css" type="text/css" rel="stylesheet" />
 <!--[if IE]><link href="css/ie.css" type="text/css" rel="stylesheet" /><![endif]-->
 </head>
-<body class="home">
+<body class="news">
 	<!--[if IE]><div class="ie"><![endif]-->
 	<!--[if IE 6]><div id="ie6"><![endif]-->
 	<!--[if IE 7]><div id="ie7"><![endif]-->
@@ -27,80 +27,94 @@
 				<a href="#">sign in</a> <span class="or">or</span> <a href="#">register</a>
 			</div>
 		</div>
-		<div id="banner">
-			<div class="login-box">
-				<a href="#">sign in</a> <span class="or">or</span> <a href="#">join</a>
-			</div>
-			<h2>Trust Art is a philanthrop initiative to create a selft sustaining communiti fot the produccion of public art.</h2>
-			<a href="#" class="learn">learn about the initiative</a>
-			<a href="#" class="explore">explore the projects</a>
-		</div>
 		<div id="container">
 			<div id="content">
-				<div id="video">
-					<h2>Why i made trust art</h2>
-					<h3>By Benjamin Fanklin</h3>
-					<div></div>
+				<h2>News</h2>
+				<div class="post">
+					<h3 class="title">Blog post header</h3>
+					<p clas="meta"><span class="date"></span></p>
+					<div class="entry">
+						
+					</div>
+					<div class="actions">
+						<a href="#" class="more comments">comments (4)</a>
+						<a href="#" class="more">read more</a>
+					</div>
 				</div>
-				<div id="news">
-					<h2>Latest news</h2>
-					<div class="meta">June 15, 2010</div>
-					<h3>Trust art launch party - nyc</h3>
-					<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding </p>
-					<a href="#" class="more" title="Read more">read more</a>
+				<div class="post">
+					<h3 class="title">Blog post header</h3>
+					<p clas="meta"><span class="date"></span></p>
+					<div class="entry">
+						
+					</div>
+					<div class="actions">
+						<a href="#" class="more comments">comments (4)</a>
+						<a href="#" class="more">read more</a>
+					</div>
 				</div>
-				<div id="subscribe">
-					<h2>Get updates about trust art projects</h2>
+				
+			</div>
+			<div id="sidebar">
+				<div id="calendar" class="widget">
+					<h3>- trust art event calendar -</h3>
+					<table>
+						<thead>
+							<td>Event</td>
+							<td>Time</td>
+							<td>Locations</td>
+						</thead>
+						<tbody>
+							<tr class="odd">
+								<td>Event name</td>
+								<td>8:00 pm</td>
+								<td>Variety cafe</td>
+							</tr>
+							<tr class="even">
+								<td>Event name</td>
+								<td>8:00 pm</td>
+								<td>Variety cafe</td>
+							</tr>
+							<tr class="odd">
+								<td>Event name</td>
+								<td>8:00 pm</td>
+								<td>Variety cafe</td>
+							</tr>
+							<tr class="even">
+								<td>Event name</td>
+								<td>8:00 pm</td>
+								<td>Variety cafe</td>
+							</tr>							
+						</tbody>	
+					</table>
+				</div>
+				<div id="subscribe" class="widget">
+					<h3>Sign up to get updates about Trust Art projects</h3>
 					<form action="#">
 						<label for="email">email</label><input id="email" name="email" value="email" type="text" />
 						<label for="zip">zip</label><input id="zip" name="zip" value="zip" type="text" />
 						<input type="submit" value="submit" class="submit">
-					</form>
-					<div class="social-media">
-						<ul>
-							<li class="find">Find us on:</li>
-							<li class="twitter"><a href="#"><span>twitter</span></a></li>
-							<li class="facebook"><a href="#"><span>facebook</span></a></li>
-							<li class="flirk"><a href="#"><span>flirk</span></a></li>
-							<li class="vimeo"><a href="#"><span>vimeo</span></a></li>
-						</ul>
-					</div>
+					</form>					
 				</div>
-				<div class="clear"></div>
+				<div id="archive" class="widget">
+					<ul>
+						<li><a href="#">january</a></li>
+						<li><a href="#">febrarury</a></li>
+						<li><a href="#">march</a></li>
+						<li><a href="#">april</a></li>
+						
+						<li><a href="#">may</a></li>
+						<li><a href="#">june</a></li>
+						<li><a href="#">july</a></li>
+						<li><a href="#">august</a></li>
+
+						<li><a href="#">septembar</a></li>
+						<li><a href="#">octobar</a></li>
+						<li><a href="#">novermbar</a></li>
+						<li><a href="#">decembar</a></li>												
+					</ul>
+				</div>				
 			</div>
-			<div id="featured">
-				<h2>Featured Projects</h2>
-				<ul>
-					<li>
-						<img src="images/content-home.jpg" width="309" height="370" >
-						<div class="head">
-							<h3>Name of project</h3>
-							<h4>John Doe</h4>
-							<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed en his bed into a horrible vermin.</p>
-							<a href="#" class="more" title="Learn more">learn more</a>							
-						</div>
-					</li>
-					<li>
-						<img src="images/content-home.jpg" width="309" height="370" >
-						<div class="head">
-							<h3>Name of project</h3>
-							<h4>John Doe</h4>
-							<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed en his bed into a horrible vermin.</p>
-							<a href="#" class="more" title="Learn more">learn more</a>							
-						</div>
-					</li>
-					<li class="last">
-						<img src="images/content-home.jpg" width="309" height="370" >
-						<div class="head">
-							<h3>Name of project</h3>
-							<h4>John Doe</h4>
-							<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed en his bed into a horrible vermin.</p>
-							<a href="#" class="more" title="Learn more">learn more</a>							
-						</div>						
-					</li>
-				</ul>
-				<div class="clear"></div>
-			</div>
+			<div class="clear"></div>
 		</div>
 	</div>
 	<div id="footer">

@@ -2422,3 +2422,229 @@ line-height:1.2em;
 .faq #sidebar #tags p {
 	font-size:.9em;
 }
+
+
+
+
+
+
+
+/* about */
+
+.about #header {
+	margin:0;
+}
+
+.about #beginning {
+	background:url(../images/about/beginning.jpg) no-repeat center top;
+	height:515px;
+	padding-top:50px;
+	color:#fff;
+}
+
+.about #how-work {
+	background:url(../images/about/how-work.jpg) no-repeat center top;
+	height:513px;
+	padding-top:50px;
+	color:#fff;
+}
+
+.about #guiding {
+	background:url(../images/about/guiding.jpg) no-repeat center top;
+	padding-top:50px;
+	height:515px;
+	color:#fff;
+}
+
+.about #growth {
+	background:url(../images/about/growth.jpg) no-repeat center top;
+	height:496px;
+	color:#fff;
+	padding-top:68px;
+}
+
+.about #directors {
+	background:url(../images/about/directors.jpg) no-repeat center top;
+	height:550px;
+	padding-top:13px;
+	
+}
+
+.about #contact-us {
+	background:url(../images/about/contact-us.jpg) no-repeat center top;
+	height:308px;
+	padding-top:65px;
+}
+
+.about #content .wrapper {
+	width:700px;
+	padding-left:263px;
+}
+
+.about #container {
+	position:relative;
+}
+
+.about #sidebar {
+	position:fixed;
+	top: 50px;
+	left:50px;
+}
+
+.about #footer {
+	margin:0;
+}
+
+.about #content h2 {
+	font-style:italic;
+	font-size:2em;
+	font-family:"Times New Roman";
+	font-weight:bold;
+}
+
+.about #content h2 span {
+	font-style:normal;
+	text-transform:uppercase;	
+}
+
+.about #beginning ul,
+.about #how-work ul {
+	margin-top:10px;
+	list-style:disc;
+	padding-left:20px;
+	margin-bottom:30px;
+}
+
+.about #how-work ul {
+	width:307px;
+}
+
+.about #beginning ul li,
+.about #how-work ul li{
+	margin-bottom:12px;
+	line-height:1.25em;
+}
+
+.about #beginning .wrapper div {
+	float:left;
+	width:330px;
+	margin-left:15px;
+}
+.about #beginning div img{
+	border:solid 7px #fff;
+	margin-bottom:15px;
+}
+
+.about a.more {
+	font-size:.9em;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+
+.about #how-work p {
+	margin-bottom:20px;
+}
+
+.about #guiding .wrapper div {
+	background:url(../images/about/guiding-content.png) no-repeat;
+	width:629px;
+	height:317px;
+	position:relative;
+	left:-37px;
+	top:20px;
+}
+
+.about #guiding p {
+	margin-top:20px;
+}
+
+.about #growth h2{
+	margin-bottom:10px;
+}
+
+.about #growth p{
+	width:410px;
+	margin-bottom:12px;
+	line-height:1.25em;
+}
+
+.about #growth p.link{
+	margin-top:20px;
+}
+
+.about #contact-us .wrapper div{
+	width:380px;
+	height:100px;
+	margin-top:40px;
+	padding:20px 35px;
+	background:#FAFAF9;
+	}
+	
+.about #contact-us h3{	
+	font-family:times New Roman;
+	font-size:2em;
+	font-weight:bold;
+	height:34px;
+	margin-bottom:10px;
+}
+
+.about #contact-us p {
+	font-size:1.25em;
+	line-height:1.25em;
+	font-weight:bold;
+}
+
+.about #contact-us a.mailto{
+	color:#BE4B4F;
+}
+
+.about #contact-us p.address {
+	float:left;
+}
+
+.about #contact-us p.contact {
+	float:right;
+}
+
+.about #directors .wrapper div{
+	padding:0 30px;
+	background:#F1F2F2;
+	margin-top:10px;
+}
+
+.about #directors .wrapper div.first{
+	margin:0;
+}
+
+.about #directors .wrapper div.partners li {
+	height:90px;
+}
+
+.about #directors ul li {
+	height:145px;
+	border-bottom:dashed 1px #000;
+	padding:25px 0;
+	color:#555555;
+}
+
+.about #directors ul li.last {
+	border:none;
+}
+
+.about #directors ul li img {
+	float:left;
+	margin-right:25px;
+}
+
+.about #directors ul li h3 {
+	font-size:1.05em;
+	text-transform:uppercase;
+	font-family:"Times New Roman";	
+	font-weight:bold;
+	margin-bottom:5px;
+}
+
+.about #directors ul li p {
+	font-size:.9em;
+	line-height:1.25em;
+}
