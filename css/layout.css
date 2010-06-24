@@ -1150,6 +1150,10 @@ span.numbers,
 	padding-left:3px;
 }
 
+.profile ul#projects li div.info table .header td.logo {
+	position:relative;
+}
+
 .profile ul#projects li div.share form,
 .profile ul#projects li div.share fieldset {
 	width:207px;
@@ -1223,6 +1227,7 @@ span.numbers,
 .profile ul#projects li div.info table .header td{
 	border-bottom:dashed 1px #000;
 	height:55px;
+	vertical-align:top;
 	}
 	
 .profile ul#projects li div.info table .header td h4{
@@ -1241,7 +1246,7 @@ span.numbers,
 	border-right:dashed 1px #000;
 	background: url(../images/logo-mini-mini.png) no-repeat center 2px;
 	text-align:center;
-	padding:0px;
+	padding-top: 25px
 }
 
 .profile ul#projects li div.info table tr.header td.logo img{
