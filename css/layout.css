@@ -2487,8 +2487,35 @@ line-height:1.2em;
 
 .about #sidebar {
 	position:fixed;
-	top: 50px;
-	left:50px;
+	top: 128px;
+	left:26px;
+	width:180px;
+	padding:10px 13px;
+	background:#F4F2EE;
+}
+
+.about #sidebar h3{
+	text-transform:uppercase;
+	font-family:"Times New Roman";
+	font-weight:bold;
+}
+
+.about #sidebar ul{
+	margin:10px 0 10px 0;
+	border:solid 2px #F2EFEC;
+	background:#EAE7E4;
+	padding:10px 0 0 10px;
+}
+
+.about #sidebar ul li {
+	margin-bottom:9px;
+}
+
+.about #sidebar ul li a{
+	color:#C1B9B3;
+	display:block;
+	font-weight:bold;
+	font-size:.9em;
 }
 
 .about #footer {
