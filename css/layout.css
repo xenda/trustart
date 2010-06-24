@@ -2271,3 +2271,57 @@ body.message #message{
 .message .action .delete{
 	margin:0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* otros */
+
+.faq #content {
+	width:670px;
+	float:left;
+	margin-top:15px;
+} 
+
+.faq #sidebar {
+	width:260px;
+	float:right;
+	background:#F6F5F2;
+}
+ 
+.faq h2 {
+	color:#BD312B;
+	font-family:"Times New Roman";
+	font-weight:bold;
+	height:16px;
+}
+.faq #content p {
+	color:#555555;
+}
+ 
+.faq p.desc { 
+	margin-top:30px;
+	border-bottom:3px solid #555555;
+	line-height:1.15em;
+	padding-bottom:30px;
+}
+ 
+.faq p.question {
+	margin-top:25px;
+	letter-spacing:.02em;
+	font-weight:bold;
+}
+.faq p.answer {
+	margin-top:15px;
+	font-size:.9em;
+	line-height:1.3em;
+} 
