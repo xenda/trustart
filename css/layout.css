@@ -865,8 +865,8 @@ background: #EAE7E4;
 	}
 
 .profile #user {
-	border-bottom: solid 2px #555555;
-	padding:16px 0 6px 0;
+	border-bottom: solid 4px #555555;
+	padding:16px 0 0 0;
 	position:relative;
 	margin-bottom:23px;
 }
@@ -1380,10 +1380,15 @@ span.numbers,
 }
 
 .profile #sidebar {
-	width:188px;
+	width:208px;
 	float:right;
-	padding:0 10px 23px 10px;
+}
+
+.profile #sidebar .widget {
+	padding:0 10px 10px 10px;
 	border: solid 1px #ccc;
+	background:#F1EFEB;
+	margin-bottom:10px;
 }
 
 .profile #content #sidebar h3{
@@ -1406,14 +1411,34 @@ span.numbers,
 	padding:5px 0;
 	border-bottom: dashed 1px #000;
 	}
+	
+.profile #content #sidebar ul.shared-me li {
+	height:40px;
+}	
 
 .profile #content #sidebar li img {
 	float: left;
 	margin-right: 17px;
 }
 
+.profile #content #sidebar li.last {
+	border-bottom:none;
+}
+
+.profile #content #sidebar ul.shared-me li img {
+	margin-top:5px;
+}
+
 .profile #content #sidebar li h4 {
-	letter-spacing:-.05em;
+	font-size:.9em;
+}
+
+.profile #content #sidebar li h5 {
+	font-size:.75em;
+}
+
+.profile #content #sidebar ul.shared-me li p {
+	color:#ff0000;
 }
 
 .profile #content #sidebar li p {
