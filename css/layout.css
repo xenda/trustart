@@ -44,6 +44,7 @@ body {
 	background: url(../images/background.png) repeat-x center top;
 	font-family: Helvetica, "Times New Roman", Arial, sans-serif;
 	font-size: 1em;
+	color:#555555;
 }
 
 .wrapper {
@@ -1998,7 +1999,8 @@ span.numbers,
 	padding-top:5px;
 }
 
-.sessions h2 {
+.sessions h2,
+.news h2 {
 	text-transform: uppercase;
 	padding-bottom: 10px;
 	color: #BD312B;
@@ -2374,6 +2376,7 @@ body.message #message{
 	font-weight:bold;
 	height:16px;
 }
+
 .faq #content p {
 	color:#555555;
 }
@@ -2435,25 +2438,30 @@ body.message #message{
 	margin-top:18px;
 }
 
+.news #sidebar #subscribe h3,
 .faq #sidebar #subscribe h3{
 	font-weight:bold;
-letter-spacing:0.05em;
-line-height:1.2em;	
+	letter-spacing:0.05em;
+	line-height:1.2em;	
 }
 
+.news #sidebar #subscribe form,
 .faq #sidebar #subscribe form {
 	margin:15px 0;
 }
 
+.news #sidebar #subscribe form input,
 .faq #sidebar #subscribe form input {
 	border:none;
 	background:#fff;
 }
 
+.news #sidebar #subscribe form input#zip,
 .faq #sidebar #subscribe form input#zip {
 	width:50px;
 }
 
+.news #sidebar #subscribe form input.submit
 .faq #sidebar #subscribe form input.submit {
 	font-size:.9em;
 }
@@ -2742,4 +2750,165 @@ line-height:1.2em;
 .about #directors ul li p {
 	font-size:.9em;
 	line-height:1.25em;
+}
+
+.news #container {
+	padding-top:15px;
+}
+
+.news #content {
+	float:left;
+	width:590px;
+}
+
+.news #sidebar {
+	float:right;
+	width:318px;
+	background:#F2EEEA;
+	padding:11px;
+	}
+	
+.news #sidebar .widget {
+	border-top:solid 2px #514F4F;
+	margin-top:5px;
+	padding-bottom:5px;
+}
+
+.news #sidebar #calendar {
+	border-bottom:1px #555 dashed;
+}
+
+.news #sidebar #calendar h3 {
+	height:45px;
+	line-height: 45px;
+	border-bottom: 2px solid #514F4F;
+	text-align:center;
+	margin:0;
+	font-style:italic;
+	overflow:hidden;
+	color:#58585b;
+	font-size:1em;
+	letter-spacing:.1em;
+	font-family: "Times New Roman";
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+.news #sidebar #calendar table {
+	width:100%;
+}
+
+.news #sidebar #calendar table td {
+	height:32px;
+	line-height:32px;
+	padding-left:20px;
+}
+
+.news #sidebar #calendar table thead,
+.news #sidebar #calendar table tr.even td {
+	background:#CECAC5
+}
+
+.news #sidebar #calendar table thead {
+	border-bottom:dashed 1px #555;
+}
+
+.news #sidebar #calendar table thead td {
+	font-weight:bold;
+	font-size:.9em;
+	text-transform:uppercase;
+}
+
+.news #sidebar #calendar table tbody td,
+.news #sidebar #calendar table tbody a {
+	color: #58595B;
+	font-size:.95em;
+}
+
+.news #sidebar #subscribe {
+	border:none;
+	width:245px;
+	margin:15px auto 0 auto;
+}
+
+.news #sidebar #archive h3 {
+	font-family:"Times New Roman", Times, serif;
+	color:#58595b;
+	font-style:italic;
+	font-weight:bold;
+	font-size:1.25em;
+	margin:5px 0;
+}
+
+.news #sidebar #archive ul{
+	width:96px;
+	padding:5px;
+	float:left;
+	background:#EAE7E4;
+}
+
+.news #sidebar #archive ul li {
+	height:20px;
+	line-height:20px;
+}
+
+.news #sidebar #archive ul li a{
+	color:#58595B;
+	font-size:.9em;
+}
+
+.news h2 {
+	margin-bottom:20px;
+}
+
+.news div.post {
+	margin-top:30px;
+}
+
+.news div.first {
+	margin:0;
+}
+
+.news .post {
+	padding-bottom:20px;
+	border-bottom:dashed 1px #555555;
+}
+	
+.news h3.title {
+	color:#CA3421;
+	font-weight:bold;
+}
+
+.news .meta {
+	margin-bottom:25px;
+}
+
+.news .meta .date {
+	font-family:"Times New Roman", Times, serif;
+	font-style:italic;
+	color:#649FD8;
+	font-weight:bold;
+	font-size:.85em;
+}
+
+.news .entry img{
+	border:solid 5px #F2EFEC;
+	display:block;
+	margin-bottom:25px;
+}
+
+.news .entry {
+	font-size:.8em;
+	line-height:1.45em;
+}
+
+.news .actions {
+	text-align:right;
+	margin-top:25px;
+}
+
+.news .actions a.comments {
+	background-image:none;
+	padding-right:5px;
+	margin-right:10px;
 }
