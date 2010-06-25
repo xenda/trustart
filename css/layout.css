@@ -1,3 +1,11 @@
+/* @override 
+	http://localhost:3000/stylesheets/layout.css
+	http://trustart.bell-n-whistle.com/stylesheets/layout.css?1277411281
+	http://trustart.bell-n-whistle.com/stylesheets/layout.css?1277488535
+	http://trustart.bell-n-whistle.com/stylesheets/layout.css?1277494083
+	http://trustart.bell-n-whistle.com/stylesheets/project.css?1277494083
+*/
+
 @font-face {
 	font-family: 'Helvetica';
 	src: url('../fonts/helvetiva_italica-webfont.eot');
@@ -60,7 +68,25 @@ input.more {
 	padding:0 17px 3px 5px;
 	text-align: right;
 	font-family:"Times New Roman";	
+	opacity:  0.5;
+	text-decoration: none;
 }
+
+a.more:hover,
+input.more:hover {
+	height: 21px;
+	background: #F3FC04 url(../images/link-more.png) no-repeat right center;
+	color: #000000;
+	font-style: italic;
+	font-weight:bold;
+	line-height:21px;
+	font-size:1em;
+	padding:0 17px 3px 5px;
+	text-align: right;
+	font-family:"Times New Roman";	
+	opacity: 1;
+}
+
 
 input.submit:hover {
 	cursor: pointer;
@@ -129,7 +155,7 @@ h1#logo a span {
 	display:block;
 	padding: 0 10px;
 	height: 100%;
-	color:#ccc;
+	color:#cdcdcd;
 	/*
 color: #808285;
 */
@@ -193,7 +219,7 @@ color: #808285;
 
 #footer li a {
 	color: #9D9D9F;
-	font-size: .8em;
+	font-size: .78em;
 }
 
 #footer .logo,
@@ -284,19 +310,30 @@ color: #808285;
 	word-spacing:.07em;
 	height:72px;
 	margin-bottom:30px;
+	color: #58595b;
+}
+
+#featured ul li img {
+	border: 2px solid #d5d5d5;
+	/*width: 311px;*/
 }
 
 #banner a{
 	float:left;
 	color:#fff;
 	font-family: "Times New Roman";
-	font-weight:bold;
-	font-style:italic;
+	font-style: italic;
 	padding:8px 32px 8px 11px;
 	margin-right:20px;
 	font-size:1.3em;
 	letter-spacing:.02em;
 	background:url(../images/banner-arrow.png) no-repeat right center;
+	opacity: 0.9;
+}
+
+#banner a:hover {
+	opacity: 1;
+	text-decoration: none;
 }
 
 #banner .login-box a,
@@ -389,8 +426,9 @@ color: #808285;
 	font-family: "Times New Roman";
 }
 
-#news h3 {
-	color: #BD312B;
+#news h3,
+#news h3 a {
+	color: #E52E26;
 	text-transform: uppercase;
 	font-weight: bold;
 	margin-bottom:15px;
@@ -413,14 +451,14 @@ color: #808285;
 	font-size:.85em;
 }
 
-#news a {
+#news a.more {
 	display: block;
 	position:absolute;
 	right:30px;
 	bottom:30px;
 }
 
-.home #subscribe {
+.home.index #subscribe {
 	position:absolute;
 	bottom:0;
 	right:0;
@@ -458,9 +496,7 @@ background: #EAE7E4;
 	border: solid 1px #C6C3C0;
 	color: #4C4847;
 	height:17px;
-	font-family:"Times New Roman";
-	font-weight:bold;
-	font-size:1em;
+	font: normal normal 1em "Times New Roman";
 }
 
 #subscribe form input#email {
@@ -478,8 +514,8 @@ background: #EAE7E4;
 	background: #DC3931 !important;
 	border-color:#DC3931; 
 	width: auto;
-	font-style:italic;
-	height:21px;
+	height:22px;
+	font: italic 15px "Times New Roman", Times, serif;
 }
 
 #featured {
@@ -512,11 +548,12 @@ background: #EAE7E4;
 	position:absolute;
 	top:0;
 	left:0;
-	background-color: rgba(0, 0, 0, .6);
+	background-color: rgba(0, 0, 0, .8);
 	color:#ffffff;
 	padding: 9px;
 	height:120px;
-	width:291px;
+	width:295px;
+
 }
 
 #featured .head h3 {
@@ -653,7 +690,7 @@ background: #EAE7E4;
 
 .projects #meta {
 	height:140px;
-	border-bottom:solid 3px #000;
+	border-bottom: 3px solid #555556;
 	margin-bottom:30px;
 }
 
@@ -677,7 +714,7 @@ background: #EAE7E4;
 	float:right;
 	width:430px;
 	height:135px;
-	border-left:1px dashed #000;
+	border-left: 1px solid #e1e1e2;
 }
 
 .projects #meta  .gift h3{
@@ -706,24 +743,24 @@ background: #EAE7E4;
 
 .projects #content li.top,
 .store-list #content li.top {
-	border-top: dotted 1px #000000;
+	border-top: dotted 1px #c1c1c1;
 	}
 	
 .projects #content li,
 .store-list #content li {
-	border-left: dotted 1px #000000;
-	border-bottom: dotted 1px #000000;
+	border-left: dotted 1px #c1c1c1;
+	border-bottom: 1px dotted #939595 !important;
 }
 
 .projects #content li.last,
 .store-list #content li.last {
-	border-right: dotted 1px #000000;
+	border-right: dotted 1px #c1c1c1;
 }
 
 .projects #content img {
 	padding:10px;
 	background: #E7E8EB;
-	border: #F2EFEC solid 3px;
+	border: #F2EFEC solid 5px;
 	width: 207px;
 	display:block;
 	margin-bottom: 18px;
@@ -733,7 +770,15 @@ background: #EAE7E4;
 	display: block;
 	position:absolute;
 	right:44px;
-	bottom:40px;
+	bottom:80px;
+	position: absolute !important;
+	bottom: 5px;
+    right: 10px;
+}
+
+.projects #container #content ul li a.more {
+	bottom: 40px !important;
+	right:  44px;	
 }
 
 .projects #footer {
@@ -877,7 +922,7 @@ background: #EAE7E4;
 	width:370px;
 	padding-right:40px;
 	padding-bottom:15px;
-	border-right: dashed 1px #000000;
+	border-right: dashed 1px #acacac;
 	position:relative;
 }
 
@@ -945,7 +990,7 @@ background: #EAE7E4;
 	float:left;
 	width:133px;
 	padding-right:2px;
-	border-right: solid 1px #000;
+	border-right: solid 1px #d4d4d4;
 	margin:0;
 	position:relative;
 	height:135px;
@@ -986,7 +1031,7 @@ span.numbers,
 }
 
 .cufon-ready .profile #user #share li.gifts p .cufon {
-	width:45px !important;
+	/*width:45px !important;*/
 }
 
 .profile #user #share li h4{
@@ -1015,7 +1060,7 @@ span.numbers,
 
 .profile #user #share ul {
 	height:149px;
-	border-bottom:dashed 1px #000;
+	border-bottom:dashed 1px #b3b3b3;
 }
 
 .profile #user #share .total {
@@ -1457,16 +1502,17 @@ span.numbers,
 	margin-bottom:7px;	
 }
 
-.project .meta h2 {
-	font-weight:bold;
-	font-size:1.25em;
+.project .meta h2,
+.chapter .meta h2 {
 	color: #58585b;
 	text-transform:uppercase;
 	height:20px;
 	margin-bottom:3px;
+	font: bold 1.25em Arial, Helvetica, Geneva, sans-serif;
 }
 
-.project .meta h3 {
+.project .meta h3 a,
+.chapter .meta h3 a {
 	color:#BD312B;
 	font-family:"Times New Roman";
 	font-style:italic;
@@ -1522,12 +1568,13 @@ span.numbers,
 }
 
 .project #content {
-	width:595px;
+	width:590px;
+	margin-right: 10px;
 	float:left;
 }
 
 .project #project {
-	border-bottom: dashed 1px #000;
+	border-bottom: dashed 1px #c1c1c1;
 	padding-bottom: 10px;	
 }
 
@@ -1535,6 +1582,7 @@ span.numbers,
 	font-size:.75em;
 	word-spacing:.05em;
 	line-height:1.6em;
+	color: #58595b;
 }
 
 .project #sidebar {
@@ -1545,13 +1593,13 @@ span.numbers,
 }
 
 .project #sidebar .widget {
-	border-top: solid 2px #000;
+	border-top: 2px solid #565656;
 }
 
 .project #sidebar #status h3{
 	height:50px;
 	line-height: 45px;
-	border-bottom: solid 2px #000;
+	border-bottom: 2px solid #565656;
 	text-align:center;
 	margin-bottom:12px;
 	font-style:italic;
@@ -1570,6 +1618,7 @@ span.numbers,
 	font-size:.8em;
 	line-height:1.4em;
 	margin-bottom:46px;
+	color: #646666;
 }
 
 .cufon-ready .project #sidebar #status p {
@@ -1668,9 +1717,18 @@ span.numbers,
 }
 
 .project #sidebar #gift h3 {
-	background: url(../images/make-gift.png) no-repeat center top;
+	background: none;
 	height: 109px;
 	margin:5px 0 2px 0;
+}
+
+#gift h3 a img {
+	width: 170px;
+	margin-left: 70px;
+}
+
+#resources ul li span a.get-touch.iframe {
+	color: #58585b;
 }
 
 .project #sidebar #gift h3 span{
@@ -1816,10 +1874,13 @@ span.numbers,
 .project #shareholders h4,
 .project #top-ten h4 {
 	height:37px;
-	line-height:35px;
-	border-bottom:dashed 1px #000;
+	line-height: 35px;
+	border-bottom: 1px dashed #939595;
 	text-transform:uppercase;
-	}
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px !important;
+}
 
 .project #shareholders {
 	float:left;
@@ -1839,21 +1900,23 @@ span.numbers,
 }
 
 .project #top-ten h4 {
-	font-size:2em;
-	font-weight:bold;
 	color: #ef3f37;
-	font-family:"Helvetica";
+	letter-spacing: 0px;
+	font-size: 2em !important;
+	font: bold 1.6em "Arial Narrow","Helvetica Neue Condensed Bold", Helvetica;
 }
 
 .project #top-ten h4 span{
 	color: #57595b;
-	font-size:.45em;
+	font: bold .45em Helvetica, "Helvetica Neue", Arial, Geneva, sans-serif;
 }
 
 .project #top-ten h4,
 .project #shareholders ul li,
 .project #top-ten ul li {
-	border-bottom:dashed 1px #000;
+	border-bottom:dashed 1px #939595;
+	font-weight: normal;
+	font-style: normal;
 }
 
 .project #shareholders ul li.last,
@@ -1865,7 +1928,11 @@ span.numbers,
 .project #shareholders ul img,
 .project #top-ten ul img {
 	float:left;
+	margin: 0px;
+	border: 0px;
 	margin-right:16px;
+	width: auto !important;
+	padding: 0px;
 }
 
 .project #shareholders ul,
@@ -1877,6 +1944,7 @@ span.numbers,
 .project #top-ten ul li {
 	height:30px;
 	padding: 5px 5px 5px 0;
+	border-left: none;
 }
 
 .project #shareholders li p,
@@ -1889,13 +1957,13 @@ span.numbers,
 }
 
 .project #shareholders .more {
-	position:absolute;
-	right: 4px;
-	bottom:5px; 
 	background:none;
 	width:auto;
 	font-size:.95em;
 	padding:0 0 0 10px; 
+	position: relative;
+	display: block;
+	display: none !important;
 }
 
 
