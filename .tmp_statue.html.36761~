@@ -9,7 +9,7 @@
 <link href="css/layout.css" type="text/css" rel="stylesheet" />
 <!--[if IE]><link href="css/ie.css" type="text/css" rel="stylesheet" /><![endif]-->
 </head>
-<body class="news">
+<body class="faq">
 	<!--[if IE]><div class="ie"><![endif]-->
 	<!--[if IE 6]><div id="ie6"><![endif]-->
 	<!--[if IE 7]><div id="ie7"><![endif]-->
@@ -29,63 +29,21 @@
 		</div>
 		<div id="container">
 			<div id="content">
-				<h2>News</h2>
-				<div class="post">
-					<h3 class="title">Blog post header</h3>
-					<p clas="meta"><span class="date"></span></p>
-					<div class="entry">
-						
-					</div>
-					<div class="actions">
-						<a href="#" class="more comments">comments (4)</a>
-						<a href="#" class="more">read more</a>
-					</div>
-				</div>
-				<div class="post">
-					<h3 class="title">Blog post header</h3>
-					<p clas="meta"><span class="date"></span></p>
-					<div class="entry">
-						
-					</div>
-					<div class="actions">
-						<a href="#" class="more comments">comments (4)</a>
-						<a href="#" class="more">read more</a>
-					</div>
-				</div>
-				
+				<h2>FAQs</h2>
+				<p class="desc">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+				<p class="question">1. Random question here?</p>
+				<p class="answer">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+				<p class="question">1. Random question here?</p>
+				<p class="answer">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+				<p class="question">1. Random question here?</p>
+				<p class="answer">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+				<p class="question">1. Random question here?</p>
+				<p class="answer">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>				
 			</div>
 			<div id="sidebar">
-				<div id="calendar" class="widget">
-					<h3>- trust art event calendar -</h3>
-					<table>
-						<thead>
-							<td>Event</td>
-							<td>Time</td>
-							<td>Locations</td>
-						</thead>
-						<tbody>
-							<tr class="odd">
-								<td>Event name</td>
-								<td>8:00 pm</td>
-								<td>Variety cafe</td>
-							</tr>
-							<tr class="even">
-								<td>Event name</td>
-								<td>8:00 pm</td>
-								<td>Variety cafe</td>
-							</tr>
-							<tr class="odd">
-								<td>Event name</td>
-								<td>8:00 pm</td>
-								<td>Variety cafe</td>
-							</tr>
-							<tr class="even">
-								<td>Event name</td>
-								<td>8:00 pm</td>
-								<td>Variety cafe</td>
-							</tr>							
-						</tbody>	
-					</table>
+				<div id="links" class="widget">
+					<a href="#" class="about">about the project</a>
+					<a href="#" class="liberty">the story of the <br />Sattue of Liberty</a>
 				</div>
 				<div id="subscribe" class="widget">
 					<h3>Sign up to get updates about Trust Art projects</h3>
@@ -95,24 +53,12 @@
 						<input type="submit" value="submit" class="submit">
 					</form>					
 				</div>
-				<div id="archive" class="widget">
-					<ul>
-						<li><a href="#">january</a></li>
-						<li><a href="#">febrarury</a></li>
-						<li><a href="#">march</a></li>
-						<li><a href="#">april</a></li>
-						
-						<li><a href="#">may</a></li>
-						<li><a href="#">june</a></li>
-						<li><a href="#">july</a></li>
-						<li><a href="#">august</a></li>
-
-						<li><a href="#">septembar</a></li>
-						<li><a href="#">octobar</a></li>
-						<li><a href="#">novermbar</a></li>
-						<li><a href="#">decembar</a></li>												
-					</ul>
-				</div>				
+				<div id="contact-us" class="widget">
+					<h3>Contact us</h3>
+					<p>498 humboldt street<br />broolyn, NY 11222<br />PO Box 231 Pownal, VT</p>
+					<a href="#" class="mailto">info@trustart.org</a>
+				</div>
+				<div id="tags" class="widget last"><p>street tag:</p></div>
 			</div>
 			<div class="clear"></div>
 		</div>

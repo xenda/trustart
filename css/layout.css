@@ -89,7 +89,8 @@ input.more:hover {
 }
 
 
-input.submit:hover {
+input.submit:hover,
+input.create:hover {
 	cursor: pointer;
 }
 
@@ -911,7 +912,7 @@ background: #EAE7E4;
 	}
 
 .profile #user {
-	border-bottom: solid 4px #555555;
+	border-bottom: solid 3px #525151;
 	padding:16px 0 0 0;
 	position:relative;
 	margin-bottom:23px;
@@ -1380,6 +1381,7 @@ span.numbers,
 	padding-left:33px;
 	background: url(../images/logo-mini.png) no-repeat left center;
 	height:33px;
+	text-align:center;
 }
 
 .profile ul#projects li div.info table .header td.logo,
@@ -1436,6 +1438,7 @@ span.numbers,
 	padding:0 10px 10px 10px;
 	border: solid 1px #ccc;
 	margin-bottom:10px;
+	background:#F1EFEB;
 }
 
 .profile #content #sidebar h3{
@@ -1995,9 +1998,11 @@ span.numbers,
 	background:url(../images/like-facebook.png) no-repeat;
 }
 
+/*
 .sessions {
 	padding-top:5px;
 }
+*/
 
 .sessions h2,
 .news h2 {
@@ -2356,29 +2361,32 @@ body.message #message{
 
 /* otros */
 
-.faq #content {
+.faq #content,
+.statue #content {
 	width:670px;
 	float:left;
 	margin-top:15px;
 } 
 
-.faq #sidebar {
+.faq #sidebar,
+.statue #sidebar {
 	width:240px;
 	padding:15px 13px;
 	margin-top:15px;
 	float:right;
-	background:#F2EFEC;
+	background:#f2f0ec url(../images/sidebar-bg.png);
 }
- 
-.faq h2 {
+
+.faq h2, 
+.statue h2 {
 	color:#BD312B;
 	font-family:"Times New Roman";
 	font-weight:bold;
 	height:16px;
 }
 
-.faq #content p {
-	color:#555555;
+.statue h2 {
+	text-transform:uppercase;
 }
  
 .faq p.desc { 
@@ -2393,26 +2401,32 @@ body.message #message{
 	letter-spacing:.02em;
 	font-weight:bold;
 }
-.faq p.answer {
+
+.faq p.answer,
+.statue #content p {
 	margin-top:15px;
 	font-size:.9em;
 	line-height:1.3em;
 }
 
-.faq #sidebar .widget {
+.faq #sidebar .widget,
+.statue #sidebar .widget {	
 	padding-bottom:10px;
 	border-bottom:solid 3px #000;
 }
 
-.faq #sidebar div.last {
+.faq #sidebar div.last,
+.statue #sidebar div.last {	
 	border:none;
 } 
 
-.faq #sidebar #links {
+.faq #sidebar #links,
+.statue #sidebar #links {
 	border-bottom:dashed 1px #000;
 }
 
-.faq #sidebar #links a{
+.faq #sidebar #links a,
+.statue #sidebar #links a{	
 	display:block;
 	border:4px solid #DDDCDB;
 	height:36px;
@@ -2427,46 +2441,56 @@ body.message #message{
 	background:url(../images/sidebar-link-arrow.png) no-repeat 210px 25px;
 }
 
-.faq #sidebar #links a.about{}
-
 .faq #sidebar #links a.liberty{
 	padding-top:16px;
 	height:50px;
 }
 
-.faq #sidebar #subscribe {
+.faq #sidebar #subscribe,
+.statue #sidebar #subscribe {
 	margin-top:18px;
 }
 
 .news #sidebar #subscribe h3,
-.faq #sidebar #subscribe h3{
+.faq #sidebar #subscribe h3,
+.statue #sidebar #subscribe h3{
 	font-weight:bold;
 	letter-spacing:0.05em;
 	line-height:1.2em;	
 }
 
+.news #sidebar #subscribe h3 {
+	letter-spacing:0em;
+}
+
 .news #sidebar #subscribe form,
-.faq #sidebar #subscribe form {
+.faq #sidebar #subscribe form,
+.statue #sidebar #subscribe form {
 	margin:15px 0;
 }
 
 .news #sidebar #subscribe form input,
-.faq #sidebar #subscribe form input {
+.faq #sidebar #subscribe form input,
+.statue #sidebar #subscribe form input {
 	border:none;
 	background:#fff;
+	font-weight:bold;
 }
 
 .news #sidebar #subscribe form input#zip,
-.faq #sidebar #subscribe form input#zip {
+.faq #sidebar #subscribe form input#zip,
+.statue #sidebar #subscribe form input#zip {
 	width:50px;
 }
 
 .news #sidebar #subscribe form input.submit
-.faq #sidebar #subscribe form input.submit {
+.faq #sidebar #subscribe form input.submit,
+.statue #sidebar #subscribe form input.submit {
 	font-size:.9em;
 }
 
-.faq #sidebar #contact-us h3 {
+.faq #sidebar #contact-us h3,
+.statue #sidebar #contact-us h3 {
 	font-style:italic;
 	font-weight:bold;
 	padding-left:42px;
@@ -2480,27 +2504,53 @@ body.message #message{
 	border-bottom:dashed 1px #000;
 }
 
-.faq #sidebar #contact-us p {
+.faq #sidebar #contact-us p,
+.statue #sidebar #contact-us p {
 	margin-top:10px;
 	padding-left:40px;
+	font-weight:bold;
 }
 
-.faq #sidebar #contact-us a.mailto {
+.faq #sidebar #contact-us a.mailto,
+.statue #sidebar #contact-us a.mailto {
 	display:block;
 	margin-left:40px;
 	margin-top:10px;
+	color:#649FD8;
 }
 
-.faq #sidebar #tags {
+.faq #sidebar #tags,
+.statue #sidebar #tags {
 	padding-top:10px;
 }
 
-.faq #sidebar #tags p {
+.faq #sidebar #tags p,
+.statue #sidebar #tags p {
 	font-size:.9em;
 }
 
+.statue #sidebar #links a.faqs {
+	float:right;
+	padding:15px 50px 0 30px;
+	background-position:100px center;
+}
 
+.statue #sidebar #counter {
+	float:left;
+	border:4px solid #DDDCDB;
+	height:39px;
+	padding:12px 0 0 7px;
+	width:96px;
+	background:#C1BBB5;
+}
 
+.statue #sidebar #counter div {
+	background:url(../images/sign.png) no-repeat;
+	width:28px;
+	height:28px;
+	float:left;
+	margin-right:2px;
+}
 
 
 
@@ -2764,7 +2814,7 @@ body.message #message{
 .news #sidebar {
 	float:right;
 	width:318px;
-	background:#F2EEEA;
+	background:#f2f0ec url(../images/sidebar-bg.png);
 	padding:11px;
 	}
 	
@@ -2801,7 +2851,7 @@ body.message #message{
 .news #sidebar #calendar table td {
 	height:32px;
 	line-height:32px;
-	padding-left:20px;
+	padding-left:5px;
 }
 
 .news #sidebar #calendar table thead,
@@ -2837,7 +2887,7 @@ body.message #message{
 	font-style:italic;
 	font-weight:bold;
 	font-size:1.25em;
-	margin:5px 0;
+	margin:10px 0;
 }
 
 .news #sidebar #archive ul{
