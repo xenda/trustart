@@ -52,6 +52,11 @@ body {
 	margin: 0 auto;
 }
 
+.about .wrapper {
+position:relative;
+z-index:50;
+}
+
 .clear {
 	clear: both;
 	padding:0 !important;
