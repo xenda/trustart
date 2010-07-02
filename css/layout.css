@@ -2538,7 +2538,7 @@ body.faq #content p.desc {
 }
 
 .news #sidebar #subscribe h3,
-.faq #sidebar #subscribe {
+.faq #sidebar #subscribe,
 .faq #sidebar #subscribe,
 .statue #sidebar #subscribe {
 	margin-top:18px;
@@ -2550,8 +2550,8 @@ body.faq #content p.desc {
 .faq #sidebar #subscribe h3,
 .statue #sidebar #subscribe h3{
 	font-weight:bold;
-letter-spacing:0.05em;
-line-height:1.2em;	
+	letter-spacing:0.05em;
+	line-height:1.2em;	
 }
 
 .news #sidebar #subscribe h3 {
@@ -2649,7 +2649,6 @@ line-height:1.2em;
 
 
 
-
 /* about */
 
 .about #header {
@@ -2691,7 +2690,6 @@ line-height:1.2em;
 	background:url(../images/about/directors.jpg) no-repeat center top;
 	height:550px;
 	padding-top:13px;
-	
 }
 
 .about #contact-us {
@@ -2715,10 +2713,6 @@ line-height:1.2em;
 	width:190px;
 	padding:25px 23px;
 	background: transparent url(../images/about_us_background_menu.png) no-repeat;
-}
-
-.about div#sidebar-wrapper {
-	
 }
 
 .about #sidebar h3{
@@ -2793,7 +2787,6 @@ line-height:1.2em;
 .about #how-work ul li{
 	margin-bottom:12px;
 	line-height:1.25em;
-	
 }
 
 .about #beginning .wrapper div {
@@ -3088,7 +3081,8 @@ line-height:1.2em;
 	margin-right:10px;
 }
 
-.login #header {
+.login #header,
+.register #header {
 	margin-bottom:28px;
 }
 
@@ -3116,6 +3110,11 @@ line-height:1.2em;
 	padding-left:55px;	
 }
 
+.register form {
+	padding-left:0px;
+	width:565px;
+}
+
 .login form fieldset label,
 .register form fieldset label {
 	font-weight:bold;
@@ -3123,10 +3122,24 @@ line-height:1.2em;
 	width:90px;
 }
 
-.login form fieldset.buttons {
+.register form fieldset label {
+	width:140px;
+}
+
+.login form fieldset.buttons,
+.register form fieldset.buttons {
 	text-align:right;
 	margin-top:10px;
 	padding-right:14px;
+}
+
+.register form .checkbox a {
+	color:#63B1DA;
+}
+
+.register form .checkbox label,
+.register form .checkbox a{
+	font-weight:normal;
 }
 
 .login h3 {
@@ -3139,32 +3152,38 @@ line-height:1.2em;
 	padding-left:75px;
 }
 
-.login p {
+.login p,
+.register p {
 	font-size:.8em;
 	}
 	
-.login .facebook {
+.login .facebook,
+.register .facebook {
 	float:right;
 	width:375px;
 	margin-top:20px;
 }
 
-.login .facebook .or{
+.login .facebook .or,
+.register .facebook .or{
 	float:left;
 	margin-right:50px;
 }
 
-.login .facebook a{
+.login .facebook a,
+.register .facebook a{
 	display:block;
 	height:100%;
 	width:100%;
 }
 
-.login .facebook p {
+.login .facebook p,
+.register .facebook p {
 	padding:0;
 	margin:15px 0 0 60px;
 }
 
-.login #footer {
+.login #footer,
+.register #footer {
 	margin-top:110px;
 }
