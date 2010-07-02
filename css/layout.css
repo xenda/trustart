@@ -3184,6 +3184,112 @@ body.faq #content p.desc {
 }
 
 .login #footer,
-.register #footer {
+.register #footer,
+.got-time #footer {
 	margin-top:110px;
+}
+
+.got-time #header{
+	margin-bottom:60px;
+}
+
+.got-time h2{
+	font-family:'Helvetica';
+	text-transform:none;
+	color:#555;
+	border:none;
+	margin-bottom:5px;
+}
+
+.got-time h3{
+	color:#BD312B;
+	font-family:"Times New Roman";
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+
+.got-time div.box {
+	width:194px;
+	height:203px;
+	padding:20px 17px;
+	float:left;
+	border-bottom:1px dotted #c1c1c1;
+	border-left:1px dotted #C1C1C1;	
+}
+
+.got-time div.box h4{
+	line-height:1.15em;
+	font-weight:bold;
+	word-spacing:-.05em;
+}
+
+.got-time div.top {
+	border-top:1px dotted #C1C1C1;
+}
+
+.got-time div.last {
+	border-right:1px dotted #C1C1C1;
+}
+
+.got-time div.sign-up label{
+	display:none;
+	visibility:hidden;
+}
+
+.got-time div.sign-up h4 {
+	margin-bottom:20px;
+}
+
+.got-time div.sign-up input {
+	border:1px solid #C6C3C0;
+	color:#9D9D9F;
+	font:1em 'Helvetica';
+	height:26px;
+	padding-left:5px;
+	margin-bottom:10px;
+	width:187px;
+}
+
+.got-time div.sign-up input.submit {
+	font:italic 15px "Times New Roman",Times,serif;
+	height:27px;
+	line-height:20px;
+	color:#000;
+	width:auto;
+	border:none;
+	float:right;
+	font-weight:bold;
+	padding-top:0;
+}
+
+.got-time div.share h4 {
+	margin-bottom:25px;
+}
+
+.got-time div.share a{
+	display:block;
+	width:126px;
+	margin:0 auto 10px auto;
+}
+
+
+.got-time div.update {
+	text-align:center;
+}
+
+.got-time div.update h4{
+	margin-bottom:10px;
+}
+
+.got-time div.update img {
+	display:block;
+	width:auto;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+
+.got-time div.update a {
+	padding:3px 10px;
+	background-image:none;
 }
