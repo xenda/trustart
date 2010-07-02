@@ -1190,6 +1190,8 @@ span.numbers,
 	color:#4187E3;
 	font-weight:bold;
 	font-size:1.4em;
+	width:40px;
+	text-align:center;
 }
 
 .profile ul#projects li div.info table .header td.logo small,

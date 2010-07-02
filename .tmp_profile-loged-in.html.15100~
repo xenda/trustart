@@ -80,7 +80,7 @@
 							<img src="images/project-4.jpg" width="207" height="112" />
 							<h3>the vulture project</h3>
 							<h4>jhon doe</h4>
-							<div class="shared"><p>5<small>shares</small></p></div>
+							<div class="shared"><p>100<small>shares</small></p></div>
 							<div class="nav">
 								<a href="#" rel="info" class="info">info</a>
 								<a href="#" rel="share" class="share">share the gift</a>
@@ -93,7 +93,7 @@
 							<h4>Auction Date: TBD</h4>
 							<table>
 								<tr class="header">
-									<td class="logo">5<small>shares</small></td>
+									<td class="logo">100<small>shares</small></td>
 									<td class="about" colspan="3">
 										<h4>The Vulture Project, Ch.1</h4>
 										<a href="#" class="more">about</a>
@@ -103,7 +103,7 @@
 									<td>
 										<h5>shares</h5>
 										<p class="desc">friends gave</p>
-										<p class="logo">5</p>
+										<p class="logo">100</p>
 									</td>
 									<td>
 										<h5>gifts</h5>
@@ -140,7 +140,7 @@
 							<div class="shared"><p>The vulve project</p></div>
 							<div class="nav">
 								<a href="#" rel="project" class="back">back</a>
-								<div><p>5<small>shares</small></p></div>
+								<div><p>100<small>shares</small></p></div>
 							</div>							
 						</div>			
 					</li>
