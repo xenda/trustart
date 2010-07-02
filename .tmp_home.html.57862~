@@ -28,7 +28,12 @@
 			</div>
 		</div>
 		<div id="banner">
-			<img src="images/banner.jpg" width="963" height="266" alt="banner" tittle="banner" />
+			<div class="login-box">
+				<a href="#">sign in</a> <span class="or">or</span> <a href="#">join</a>
+			</div>
+			<h2>Trust Art is a philanthrop initiative to create a selft sustaining communiti fot the produccion of public art.</h2>
+			<a href="#" class="learn">learn about the initiative</a>
+			<a href="#" class="explore">explore the projects</a>
 		</div>
 		<div id="container">
 			<div id="content">

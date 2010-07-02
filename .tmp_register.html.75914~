@@ -9,7 +9,7 @@
 <link href="css/layout.css" type="text/css" rel="stylesheet" />
 <!--[if IE]><link href="css/ie.css" type="text/css" rel="stylesheet" /><![endif]-->
 </head>
-<body class="profile-update loggedin">
+<body class="sessions register loggedout">
 	<!--[if IE]><div class="ie"><![endif]-->
 	<!--[if IE 6]><div id="ie6"><![endif]-->
 	<!--[if IE 7]><div id="ie7"><![endif]-->
@@ -24,29 +24,35 @@
 				<li><a href="#"><span>the</span> store</a></li>
 			</ul>
 			<div id="login-box">
-				<a href="#">my account</a>
+				<a href="#">sign in</a> <span class="or">or</span> <a href="#">register</a>
 			</div>
 		</div>
 		<div id="container">
 			<div id="content">
-				<h2>update your profile</h2>
-				<form action="#" method="post" enctype="multipart/form-data">
+				<h2>login <span class="or">or</span> <span class="join">join</span></h2>
+				<form action="#" enctype="text/plain" method="post">
 					<fieldset>
 						<ul>
 							<li><label for="name">name</label><input type="text" id="name" name="name" /></li>
 							<li><label for="email">email</label><input type="text" id="email" name="email" /></li>
-							<li><label for="company">your oganization</label><input type="text" id="company" name="company" /></li>
-							<li><label for="location">location</label><input type="text" id="location" name="location" /></li>
-							<li><label for="picture">profile picture</label><input type="file" id="picture" name="picture" /></li>
-							<li class="textarea"><label for="why">why art?</label><textarea id="why" name="why"></textarea></li>
-							<li><label for="password">new password</label><input type="password" id="password" name="password" /></li>
-							<li><label for="passwordCheck">password</label><input type="password" id="passwordCheck" name="passwordCheck" /></li>
-							<li class="checkbox"><label for="updates">Please send me Trust Art updates an event info.</label><input type="checkbox" id="updates" name="updates" value="true" /></li>
-							<li class="checkbox"><label for="notify">Please notifi me via email of any messages I receive via Trust Art</label><input type="checkbox" id="notify" name="notify"  value="true" /></li>
-							<li><a href="#" class="cancel">cancel</a><input type="submit" id="submit" name="submit" class="submit" value="done"/></li>
-						</ul>
+							<li><label for="password">password</label><input type="password" id="password" name="password" /></li>
+							<li><label for="re-password">re-enter password</label><input type="password" id="re-password" name="password" /></li>
+							<li class="checkbox"><input type="checkbox" value="true" id="terms" name="terms" /><label for="terms">I understand and agree to the <a href="#">Terms of Service</a>.</label></li>
+							<li class="checkbox"><input type="checkbox" value="true" id="send-update" name="send-update" /><label for="send-update">Yes! I’d love to get updates from Trust Art about this and other projects and events.</label></li>																												
+						</ul>					
 					</fieldset>
+					<fieldset class="buttons">
+						<input type="submit" id="submit" name="submit" class="more submit" value="ok"/>
+					</fieldset>				
 				</form>
+				<div class="facebook">
+					<div class="or">or</div>
+					<div class="login-facebook">
+						<a href="#"><img src="images/login-facebook.png" width="183" height="25" /></a>
+						<p>Use your Facebook account to login to Trust Art</p>
+					</div>
+				</div>
+				<div class="clear"></div>
 			</div>
 		</div>
 	</div>
