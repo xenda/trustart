@@ -2,8 +2,9 @@
 	http://localhost:3000/stylesheets/layout.css
 	http://trustart.bell-n-whistle.com/stylesheets/layout.css?1277411281
 	http://trustart.bell-n-whistle.com/stylesheets/layout.css?1277488535
-	http://trustart.bell-n-whistle.com/stylesheets/layout.css?1277494083
 	http://trustart.bell-n-whistle.com/stylesheets/project.css?1277494083
+	http://trustart.bell-n-whistle.com/stylesheets/layout.css?1277499360
+	http://trustart.bell-n-whistle.com/stylesheets/layout.css?1277545690
 */
 
 @font-face {
@@ -107,9 +108,10 @@ input.create:hover {
 
 #header {
 	height:66px;
-	position: relative;
+	position: inherit;
 	overflow: hidden;
 	margin-bottom:23px;
+	z-index: 1;
 }
 
 #header,
@@ -162,7 +164,7 @@ h1#logo a span {
 	display:block;
 	padding: 0 10px;
 	height: 100%;
-	color:#cdcdcd;
+	color: #d7dada;
 	/*
 color: #808285;
 */
@@ -188,10 +190,21 @@ color: #808285;
 }
 
 #login-box a{
-	font-style: normal;
 	text-transform:uppercase;
-	text-decoration:underline;
-	
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+	color: #797a7b;
+	border-bottom: 2px solid #d4d2d0;
+}
+#dropmenu ul li {
+	margin-bottom: 3px;
+}
+#dropmenu ul li a {
+	text-decoration: none;
+	font-weight: normal;
+	border: none !important;
+	font-style: normal;
 }
 
 #login-box a:hover{
@@ -222,6 +235,7 @@ color: #808285;
 	font-weight: bold;
 	margin-bottom: 2px;
 	font-size:0.9em;
+	text-align: left;
 }
 
 #footer li a {
@@ -649,7 +663,8 @@ background: #EAE7E4;
 	margin-bottom:36px;
 }
 
-.projects h2 {
+.projects h2,
+.items h2 {
 	text-transform: uppercase;
 	color: #9D9D9F;
 	font-weight: bold;
@@ -664,6 +679,10 @@ background: #EAE7E4;
 	margin-bottom: 1px;
 	font-size:1.1em;
 	height:18px;
+}
+
+.project h3 {
+	margin-bottom: 10px;
 }
 
 .projects h4 {
@@ -836,7 +855,7 @@ background: #EAE7E4;
 
 .store-list #content p.price,
 .store-detail #content p.price {
-	color: #BD312B;
+	color: #4a5ae3;
 	text-align: center;
 }
 
@@ -873,11 +892,12 @@ background: #EAE7E4;
 	}
 
 .store-detail #content #detail p.desc {
-	font-size:14px;
-	letter-spacing:-0.05em;
-	line-height:1.3em;
+	letter-spacing: 0;
 	margin-bottom:10px;
 	width:360px;
+	font: 13px/1.4em Helvetica, Arial, Geneva, sans-serif;
+	text-indent: 0;
+	word-spacing: 0;
 }
 
 .store-detail #content form label {
@@ -1261,6 +1281,16 @@ span.numbers,
 	height:45px;
 	margin-bottom:7px;
 	overflow:hidden;
+	color: #868686;
+}
+
+#projects li div.info table tbody tr.content td h5 {
+	font-size: 10px !important;
+}
+
+#projects li div.info table tbody tr.content td p.price {
+	padding-bottom: 5px !important;
+	font-size: 11px !important;
 }
 
 .profile ul#projects li div.info table{
@@ -1269,6 +1299,34 @@ span.numbers,
 	border-top:dashed 1px #000;
 	width:208px;
 	position:relative;
+	vertical-align: top !important;
+}
+
+div#dropmenu {
+	padding: 5px;
+	padding-top: 10px;
+	width: 80px;
+	height: 60px;
+	display: none;
+	position: absolute;
+	top: 45px;
+	background-color: #f2efec;
+	border-bottom: 1px solid #a4a3a1;
+
+}
+
+div#dropmenu li {
+	margin-bottom: 10px;
+}
+
+div#dropmenu a:hover {
+	text-decoration: underline;
+}
+
+a#my_account_link {
+	background: url(/images/menu_dropmenu.png) no-repeat right !important;
+	padding-right: 15px !important;
+	text-decoration: none !important;
 }
 
 .profile ul#projects li div.info table .header td {
@@ -1438,7 +1496,9 @@ span.numbers,
 	background: #72A9CE url(../images/shared-arrow.png) no-repeat right top;
 	padding-right:18px;
 	word-spacing:-.10em;
-	}
+	font-style: italic;
+	font-weight: normal;
+}
 
 .profile ul#projects li div.project img {
 	margin:0 auto 10px auto;
@@ -1533,7 +1593,7 @@ span.numbers,
 
 .project .meta h3 a,
 .chapter .meta h3 a {
-	color:#BD312B;
+	color: #de3a33;
 	font-family:"Times New Roman";
 	font-style:italic;
 	letter-spacing:.05em;
@@ -1613,21 +1673,18 @@ span.numbers,
 }
 
 .project #sidebar .widget {
-	border-top: 2px solid #565656;
+	border-top: 2px solid #535252;
 }
 
 .project #sidebar #status h3{
 	height:50px;
-	line-height: 45px;
-	border-bottom: 2px solid #565656;
+	border-bottom: 2px solid #535252;
 	text-align:center;
 	margin-bottom:12px;
-	font-style:italic;
 	overflow:hidden;
 	color:#58585b;
-	font-size:1.25em;
 	letter-spacing:.1em;
-	font-family: "Times New Roman";	
+	font: italic 1.25em/45px "Times New Roman";
 }
 
 .project #sidebar #status h3 span {
@@ -1771,7 +1828,7 @@ span.numbers,
 }
 
 .project #sidebar #gift p.deadline{
-	border: dashed 1px #000;
+	border: 1px dotted #9c9c9c;
 	border-right:none;
 	border-left:none;
 	padding: 10px 0;
@@ -1853,7 +1910,7 @@ span.numbers,
 	font-family: "Times New Roman";
 	background: url(../images/get-url.png) no-repeat 14px center;
 	color: #58595B;
-	font-weight:bold;
+	font-weight:normal;
 }
 
 .project #sidebar #update {
@@ -2399,17 +2456,34 @@ body.message #message{
 	font-family:"Times New Roman";
 	font-weight:bold;
 	height:16px;
+	text-transform: uppercase;
+	border-bottom-color: #ff563f;
+}
+
+.statue h2 {
+	margin-bottom: 1.5em;
 }
 
 .statue h2 {
 	text-transform:uppercase;
 }
+
+.statue #content p {
+	color:#555555;
+	font-size: 13px;
+	line-height: 1.4em;
+	margin-bottom: 15px;
+}
  
-.faq p.desc { 
+body.faq #content p.desc { 
 	margin-top:30px;
 	border-bottom:3px solid #555555;
-	line-height:1.15em;
 	padding-bottom:30px;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.4em;
+	color: #7b7c7c;
 }
  
 .faq p.question {
@@ -2421,8 +2495,9 @@ body.message #message{
 .faq p.answer,
 .statue #content p {
 	margin-top:15px;
-	font-size:.9em;
-	line-height:1.3em;
+	line-height: 1.4em;
+	font-size: .8em;
+	color: #7b7c7c;
 }
 
 .faq #sidebar .widget,
@@ -2454,7 +2529,7 @@ body.message #message{
 	font-style:italic;
 	font-weight:bold;
 	font-size:1.05em;
-	background:url(../images/sidebar-link-arrow.png) no-repeat 210px 25px;
+	background:url(/images/sidebar-link-arrow.png) no-repeat 210px 25px;
 }
 
 .faq #sidebar #links a.liberty{
@@ -2462,17 +2537,21 @@ body.message #message{
 	height:50px;
 }
 
+.news #sidebar #subscribe h3,
+.faq #sidebar #subscribe {
 .faq #sidebar #subscribe,
 .statue #sidebar #subscribe {
 	margin-top:18px;
+	letter-spacing:0.05em;
+  line-height:1.2em;
 }
 
 .news #sidebar #subscribe h3,
 .faq #sidebar #subscribe h3,
 .statue #sidebar #subscribe h3{
 	font-weight:bold;
-	letter-spacing:0.05em;
-	line-height:1.2em;	
+letter-spacing:0.05em;
+line-height:1.2em;	
 }
 
 .news #sidebar #subscribe h3 {
@@ -2484,7 +2563,6 @@ body.message #message{
 .statue #sidebar #subscribe form {
 	margin:15px 0;
 }
-
 .news #sidebar #subscribe form input,
 .faq #sidebar #subscribe form input,
 .statue #sidebar #subscribe form input {
@@ -2492,13 +2570,11 @@ body.message #message{
 	background:#fff;
 	font-weight:bold;
 }
-
 .news #sidebar #subscribe form input#zip,
 .faq #sidebar #subscribe form input#zip,
 .statue #sidebar #subscribe form input#zip {
 	width:50px;
 }
-
 .news #sidebar #subscribe form input.submit
 .faq #sidebar #subscribe form input.submit,
 .statue #sidebar #subscribe form input.submit {
@@ -2514,17 +2590,20 @@ body.message #message{
 	line-height:19px;
 	padding-bottom:7px;
 	font-family:"Times New Roman";
-	background:url(../images/get-url.png) no-repeat left top;
+	background: url(../images/get-url.png) no-repeat left 10px;
 	margin-top:15px;
 	font-size:1.1em;
-	border-bottom:dashed 1px #000;
+	border-bottom: 1px dotted #a8abab;
+	border-top: 3px solid #686868;
+	padding-top: 10px;
 }
 
 .faq #sidebar #contact-us p,
 .statue #sidebar #contact-us p {
 	margin-top:10px;
 	padding-left:40px;
-	font-weight:bold;
+	font-size: 14px;
+	font-weight: bold;
 }
 
 .faq #sidebar #contact-us a.mailto,
@@ -2532,7 +2611,7 @@ body.message #message{
 	display:block;
 	margin-left:40px;
 	margin-top:10px;
-	color:#649FD8;
+	color: #649fd8;
 }
 
 .faq #sidebar #tags,
@@ -2575,6 +2654,9 @@ body.message #message{
 
 .about #header {
 	margin:0;
+	height:65px;
+	position: inherit;
+
 }
 
 .about #beginning {
@@ -2592,9 +2674,9 @@ body.message #message{
 }
 
 .about #guiding {
-	background:url(../images/about/guiding.jpg) no-repeat center top;
+	background: url(../images/about/guiding.jpg) no-repeat center -1px;
 	padding-top:50px;
-	height:515px;
+	height:514px;
 	color:#fff;
 }
 
@@ -2630,34 +2712,50 @@ body.message #message{
 .about #sidebar {
 	position:fixed;
 	top: 128px;
-	left:26px;
-	width:180px;
-	padding:10px 13px;
-	background:#F4F2EE;
+	width:190px;
+	padding:25px 23px;
+	background: transparent url(../images/about_us_background_menu.png) no-repeat;
+}
+
+.about div#sidebar-wrapper {
+	
 }
 
 .about #sidebar h3{
 	text-transform:uppercase;
 	font-family:"Times New Roman";
 	font-weight:bold;
+	color: #6e6e6e;
+	margin-left: 10px;
 }
 
 .about #sidebar ul{
-	margin:10px 0 10px 0;
-	border:solid 2px #F2EFEC;
-	background:#EAE7E4;
-	padding:10px 0 0 10px;
+	margin:10px 0px 10px 5px;
+	border: 5px solid #e9dfd8;
+	background:none;
+	padding:5px 0 0 10px;
 }
 
 .about #sidebar ul li {
 	margin-bottom:9px;
+	font-size: 13px;
 }
 
 .about #sidebar ul li a{
 	color:#C1B9B3;
 	display:block;
-	font-weight:bold;
-	font-size:.9em;
+	font: italic bold .9em "Times New Roman", Times, serif;
+}
+
+.about #sidebar ul li a span {
+	font-style:normal;
+	text-transform:uppercase;}
+
+.about #sidebar ul li a:hover,
+.about #sidebar ul li a.active {
+	text-decoration: none;
+	color: #866e6e;
+	font-style: italic;
 }
 
 .about #footer {
@@ -2665,15 +2763,18 @@ body.message #message{
 }
 
 .about #content h2 {
-	font-style:italic;
-	font-size:2em;
-	font-family:"Times New Roman";
-	font-weight:bold;
+	font: italic bold 1.79em "Times New Roman";
+	font-weight: bold;
+	color: #f8fbfb;
+}
+
+#contact-us div.wrapper h2 {
+	color: #595959;
 }
 
 .about #content h2 span {
 	font-style:normal;
-	text-transform:uppercase;	
+	text-transform:uppercase;
 }
 
 .about #beginning ul,
@@ -2692,6 +2793,7 @@ body.message #message{
 .about #how-work ul li{
 	margin-bottom:12px;
 	line-height:1.25em;
+	
 }
 
 .about #beginning .wrapper div {
@@ -2746,7 +2848,9 @@ body.message #message{
 	height:100px;
 	margin-top:40px;
 	padding:20px 35px;
-	background:#FAFAF9;
+	background: rgba(250,250,249,0.35);
+	color: #585858;
+
 	}
 	
 .about #contact-us h3{	
@@ -2769,10 +2873,14 @@ body.message #message{
 
 .about #contact-us p.address {
 	float:left;
+	font-weight: normal;
+	font-style: normal;
 }
 
 .about #contact-us p.contact {
 	float:right;
+	font-weight: normal;
+	font-style: normal;
 }
 
 .about #directors .wrapper div{
@@ -2866,8 +2974,8 @@ body.message #message{
 
 .news #sidebar #calendar table td {
 	height:32px;
-	line-height:32px;
-	padding-left:5px;
+	line-height:22px;
+	padding-left:10px;
 }
 
 .news #sidebar #calendar table thead,
@@ -2940,9 +3048,10 @@ body.message #message{
 	border-bottom:dashed 1px #555555;
 }
 	
-.news h3.title {
+.news h3.title,
+.news h3.title a {
 	color:#CA3421;
-	font-weight:bold;
+	font: bold 16px Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
 }
 
 .news .meta {
