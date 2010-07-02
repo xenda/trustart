@@ -2983,27 +2983,32 @@ body.message #message{
 	margin-bottom:28px;
 }
 
-.login #content h2 {
+.login #content h2,
+.register #content h2 {
 	margin-bottom:15px;
 }
 
-.login #content h2 .or{
+.login #content h2 .or,
+.register #content h2 .or{	
 	color:#9D9D9F;
 	font-size:.8em;
 }
 
-.login #content h2 .join{
+.login #content h2 .join,
+.register #content h2 .join{	
 	text-decoration:underline;
 	color:#C8C8C9;
 }
 
-.login form {
+.login form,
+.register form {
 	width:510px;
 	float:left;
 	padding-left:55px;	
 }
 
-.login form fieldset label {
+.login form fieldset label,
+.register form fieldset label {
 	font-weight:bold;
 	text-align:right;
 	width:90px;
