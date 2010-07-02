@@ -9,11 +9,11 @@
 <link href="css/layout.css" type="text/css" rel="stylesheet" />
 <!--[if IE]><link href="css/ie.css" type="text/css" rel="stylesheet" /><![endif]-->
 </head>
-<body class="news">
+<body class="sessions login loggedout">
 	<!--[if IE]><div class="ie"><![endif]-->
 	<!--[if IE 6]><div id="ie6"><![endif]-->
 	<!--[if IE 7]><div id="ie7"><![endif]-->
-	<!--[if gte IE 8]><div id="ie8"><![endif]-->	
+	<!--[if gte IE 8]><div id="ie8"><![endif]-->		
 	<div class="wrapper">
 		<div id="header">
 			<h1 id="logo"><a href="#"><span>Trust Art</span></a></h1>
@@ -29,92 +29,40 @@
 		</div>
 		<div id="container">
 			<div id="content">
-				<h2>News</h2>
-				<div class="post">
-					<h3 class="title">Blog post header</h3>
-					<p clas="meta"><span class="date"></span></p>
-					<div class="entry">
-						
-					</div>
-					<div class="actions">
-						<a href="#" class="more comments">comments (4)</a>
-						<a href="#" class="more">read more</a>
-					</div>
-				</div>
-				<div class="post">
-					<h3 class="title">Blog post header</h3>
-					<p clas="meta"><span class="date"></span></p>
-					<div class="entry">
-						
-					</div>
-					<div class="actions">
-						<a href="#" class="more comments">comments (4)</a>
-						<a href="#" class="more">read more</a>
+				<h2>login <span class="or">or</span> <span class="join">join</span></h2>
+				<form action="#" enctype="text/plain" method="post">
+					<fieldset>
+						<ul>
+							<li><label for="email">email</label><input type="text" id="email" name="email" /></li>
+							<li><label for="password">password</label><input type="password" id="password" name="password" /></li>
+						</ul>					
+					</fieldset>
+					<fieldset class="buttons">
+						<input type="submit" id="submit" name="submit" class="more submit" value="ok"/>
+					</fieldset>				
+				</form>
+				<div class="facebook">
+					<div class="or">or</div>
+					<div class="login-facebook">
+						<a href="#"><img src="images/login-facebook.png" width="183" height="25" /></a>
+						<p>Use your Facebook account to login to Trust Art</p>
 					</div>
 				</div>
-				
+				<div class="clear"></div>
+				<h3>Forgot your password?</h3>
+				<p>Enter the email you registered with and we will reset your password</p>
+				<form action="#" enctype="text/plain" method="post">
+					<fieldset>
+						<ul>
+							<li><label for="email">email</label><input type="text" id="email" name="email" /></li>
+						</ul>					
+					</fieldset>
+					<fieldset class="buttons">
+						<input type="submit" id="submit" name="submit" class="more submit" value="reset password"/>
+					</fieldset>				
+				</form>
+				<div class="clear"></div>
 			</div>
-			<div id="sidebar">
-				<div id="calendar" class="widget">
-					<h3>- trust art event calendar -</h3>
-					<table>
-						<thead>
-							<td>Event</td>
-							<td>Time</td>
-							<td>Locations</td>
-						</thead>
-						<tbody>
-							<tr class="odd">
-								<td>Event name</td>
-								<td>8:00 pm</td>
-								<td>Variety cafe</td>
-							</tr>
-							<tr class="even">
-								<td>Event name</td>
-								<td>8:00 pm</td>
-								<td>Variety cafe</td>
-							</tr>
-							<tr class="odd">
-								<td>Event name</td>
-								<td>8:00 pm</td>
-								<td>Variety cafe</td>
-							</tr>
-							<tr class="even">
-								<td>Event name</td>
-								<td>8:00 pm</td>
-								<td>Variety cafe</td>
-							</tr>							
-						</tbody>	
-					</table>
-				</div>
-				<div id="subscribe" class="widget">
-					<h3>Sign up to get updates about Trust Art projects</h3>
-					<form action="#">
-						<label for="email">email</label><input id="email" name="email" value="email" type="text" />
-						<label for="zip">zip</label><input id="zip" name="zip" value="zip" type="text" />
-						<input type="submit" value="submit" class="submit">
-					</form>					
-				</div>
-				<div id="archive" class="widget">
-					<ul>
-						<li><a href="#">january</a></li>
-						<li><a href="#">febrarury</a></li>
-						<li><a href="#">march</a></li>
-						<li><a href="#">april</a></li>
-						
-						<li><a href="#">may</a></li>
-						<li><a href="#">june</a></li>
-						<li><a href="#">july</a></li>
-						<li><a href="#">august</a></li>
-
-						<li><a href="#">septembar</a></li>
-						<li><a href="#">octobar</a></li>
-						<li><a href="#">novermbar</a></li>
-						<li><a href="#">decembar</a></li>												
-					</ul>
-				</div>				
-			</div>
-			<div class="clear"></div>
 		</div>
 	</div>
 	<div id="footer">
@@ -149,7 +97,7 @@
 			</div>
 			<div class="ads">
 				<ul>
-					<li class="big"><a href=""><img src="images/309-shareholder.png" alt="" title="" /></a></li>
+					<li><a href=""><img src="images/309-shareholder.png" alt="" title="" /></a></li>
 					<li><a href=""><img src="images/bell-whistle.png" alt="" title="" /></a></li>
 					<li><a href=""><img src="images/cauzing-logo.png" alt="" title="" /></a></li>
 					<li><a href=""><img src="images/mt.png" alt="" title="" /></a></li>
@@ -161,6 +109,12 @@
 	<!--[if IE]></div><![endif]-->
 	<!--[if IE 6]></div><![endif]-->
 	<!--[if IE 7]></div><![endif]-->
-	<!--[if gte IE 8]></div><![endif]-->	
+	<!--[if gte IE 8]></div><![endif]-->
+	<script src="js/cufon-yui.js" type="text/javascript"></script>
+	<script src="fonts/numbers.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		Cufon.replace('span.numbers', { fontFamily: 'Helvetica', color: '-linear-gradient(#8AC5F8, #3380EC)' });
+	</script>
+	<script type="text/javascript">Cufon.now();</script>
 </body>
 </html>

@@ -9,7 +9,7 @@
 <link href="css/layout.css" type="text/css" rel="stylesheet" />
 <!--[if IE]><link href="css/ie.css" type="text/css" rel="stylesheet" /><![endif]-->
 </head>
-<body class="news">
+<body class="statue">
 	<!--[if IE]><div class="ie"><![endif]-->
 	<!--[if IE 6]><div id="ie6"><![endif]-->
 	<!--[if IE 7]><div id="ie7"><![endif]-->
@@ -29,63 +29,20 @@
 		</div>
 		<div id="container">
 			<div id="content">
-				<h2>News</h2>
-				<div class="post">
-					<h3 class="title">Blog post header</h3>
-					<p clas="meta"><span class="date"></span></p>
-					<div class="entry">
-						
-					</div>
-					<div class="actions">
-						<a href="#" class="more comments">comments (4)</a>
-						<a href="#" class="more">read more</a>
-					</div>
-				</div>
-				<div class="post">
-					<h3 class="title">Blog post header</h3>
-					<p clas="meta"><span class="date"></span></p>
-					<div class="entry">
-						
-					</div>
-					<div class="actions">
-						<a href="#" class="more comments">comments (4)</a>
-						<a href="#" class="more">read more</a>
-					</div>
-				</div>
-				
+				<h2>the story of the statue of liberty</h2>
+				<p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin ompared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me? " he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me? " he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls.</p>
+				<p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me? " he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me? " he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls.</p>
 			</div>
 			<div id="sidebar">
-				<div id="calendar" class="widget">
-					<h3>- trust art event calendar -</h3>
-					<table>
-						<thead>
-							<td>Event</td>
-							<td>Time</td>
-							<td>Locations</td>
-						</thead>
-						<tbody>
-							<tr class="odd">
-								<td>Event name</td>
-								<td>8:00 pm</td>
-								<td>Variety cafe</td>
-							</tr>
-							<tr class="even">
-								<td>Event name</td>
-								<td>8:00 pm</td>
-								<td>Variety cafe</td>
-							</tr>
-							<tr class="odd">
-								<td>Event name</td>
-								<td>8:00 pm</td>
-								<td>Variety cafe</td>
-							</tr>
-							<tr class="even">
-								<td>Event name</td>
-								<td>8:00 pm</td>
-								<td>Variety cafe</td>
-							</tr>							
-						</tbody>	
-					</table>
+				<div id="links" class="widget">
+					<a href="#" class="about">about the project</a>
+					<div id="counter">
+						<div class=""></div>
+						<div class=""></div>
+						<div class=""></div>
+					</div>
+					<a href="#" class="faqs">FAQs</a>
+					<div class="clear"></div>
 				</div>
 				<div id="subscribe" class="widget">
 					<h3>Sign up to get updates about Trust Art projects</h3>
@@ -95,24 +52,12 @@
 						<input type="submit" value="submit" class="submit">
 					</form>					
 				</div>
-				<div id="archive" class="widget">
-					<ul>
-						<li><a href="#">january</a></li>
-						<li><a href="#">febrarury</a></li>
-						<li><a href="#">march</a></li>
-						<li><a href="#">april</a></li>
-						
-						<li><a href="#">may</a></li>
-						<li><a href="#">june</a></li>
-						<li><a href="#">july</a></li>
-						<li><a href="#">august</a></li>
-
-						<li><a href="#">septembar</a></li>
-						<li><a href="#">octobar</a></li>
-						<li><a href="#">novermbar</a></li>
-						<li><a href="#">decembar</a></li>												
-					</ul>
-				</div>				
+				<div id="contact-us" class="widget">
+					<h3>Contact us</h3>
+					<p>498 humboldt street<br />broolyn, NY 11222<br />PO Box 231 Pownal, VT</p>
+					<a href="#" class="mailto">info@trustart.org</a>
+				</div>
+				<div id="tags" class="widget last"><p>street tag:</p></div>
 			</div>
 			<div class="clear"></div>
 		</div>
