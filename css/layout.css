@@ -53,11 +53,6 @@ body {
 	margin: 0 auto;
 }
 
-.about .wrapper {
-position:relative;
-z-index:50;
-}
-
 .clear {
 	clear: both;
 	padding:0 !important;
@@ -95,8 +90,7 @@ input.more:hover {
 }
 
 
-input.submit:hover,
-input.create:hover {
+input.submit:hover {
 	cursor: pointer;
 }
 
@@ -164,7 +158,7 @@ h1#logo a span {
 	display:block;
 	padding: 0 10px;
 	height: 100%;
-	color: #d7dada;
+	color: #e5e9eb;
 	/*
 color: #808285;
 */
@@ -634,20 +628,32 @@ background: #EAE7E4;
 	visibility:hidden;
 }
 
-.social-media li.twitter {
+.social-media li.twitter a {
 	background: url(../images/social-media/twitter.png) no-repeat;
 }
+.social-media li.twitter a:hover {
+	background: url(../images/social-media/twitter-on.png) no-repeat;
+}
 
-.social-media li.flirk {
+.social-media li.flirk a {
 	background: url(../images/social-media/flirk.png) no-repeat;
 }
-
-.social-media li.vimeo {
-	background: url(../images/social-media/vimeo.png) no-repeat;
+.social-media li.flirk a:hover {
+	background: url(../images/social-media/flirk-on.png) no-repeat;
 }
 
-.social-media li.facebook {
+.social-media li.vimeo a{
+	background: url(../images/social-media/vimeo.png) no-repeat;
+}
+.social-media li.vimeo a:hover{
+	background: url(../images/social-media/vimeo-on.png) no-repeat;
+}
+
+.social-media li.facebook a{
 	background: url(../images/social-media/facebook.png) no-repeat;
+}
+.social-media li.facebook a:hover{
+	background: url(../images/social-media/facebook-on.png) no-repeat;
 }
 
 
@@ -659,7 +665,8 @@ background: #EAE7E4;
 
 /*  Projects page */
 
-.projects #header {
+.projects #header,
+.chapters #header {
 	margin-bottom:36px;
 }
 
@@ -937,7 +944,7 @@ background: #EAE7E4;
 	}
 
 .profile #user {
-	border-bottom: solid 3px #525151;
+	border-bottom: solid 4px #555555;
 	padding:16px 0 0 0;
 	position:relative;
 	margin-bottom:23px;
@@ -1210,8 +1217,6 @@ span.numbers,
 	color:#4187E3;
 	font-weight:bold;
 	font-size:1.4em;
-	width:40px;
-	text-align:center;
 }
 
 .profile ul#projects li div.info table .header td.logo small,
@@ -1379,10 +1384,9 @@ a#my_account_link {
 
 .profile ul#projects li div.info table .content td h5{
 	color:#4E545A;
-	font-size:.65em;
+	font-size:.75em;
 	margin-top:5px;
 	margin-bottom:3px;
-	text-transform:uppercase;
 }
 
 .profile ul#projects li div.info table .content td .desc{
@@ -1396,17 +1400,9 @@ a#my_account_link {
 .profile ul#projects li div.info table .content td .price,
 .profile ul#projects li div.info table .content td .logo{
 	color:#fff;
-	font-size:.8em;
-	margin-bottom:10px;
-	height:15px;
-	line-height:15px;
+	font-size:.9em;
+	margin-bottom:3px;
 }
-
-.profile ul#projects li div.info table .content td .logo{
-	background:url(../images/logo-mini-mini-mini.png) left center no-repeat;
-	display:inline;
-	padding-left:18px;
-	}
 
 .profile ul#projects li div.share form li input{
 	border:solid 1px #ccc;
@@ -1455,7 +1451,6 @@ a#my_account_link {
 	padding-left:33px;
 	background: url(../images/logo-mini.png) no-repeat left center;
 	height:33px;
-	text-align:center;
 }
 
 .profile ul#projects li div.info table .header td.logo,
@@ -1514,7 +1509,6 @@ a#my_account_link {
 	padding:0 10px 10px 10px;
 	border: solid 1px #ccc;
 	margin-bottom:10px;
-	background:#F1EFEB;
 }
 
 .profile #content #sidebar h3{
@@ -1640,7 +1634,7 @@ a#my_account_link {
 
 .project #video {
 	background: url(../images/teh-big-video.jpg) no-repeat;
-	width:595px;
+	width:590px;
 	height:450px;
 	margin: 0 0 18px 0;
 	padding:0;
@@ -2071,11 +2065,9 @@ a#my_account_link {
 	background:url(../images/like-facebook.png) no-repeat;
 }
 
-/*
 .sessions {
 	padding-top:5px;
 }
-*/
 
 .sessions h2,
 .news h2 {
@@ -2434,25 +2426,22 @@ body.message #message{
 
 /* otros */
 
-.faq #content,
-.statue #content {
+.faq #content {
 	width:670px;
 	float:left;
 	margin-top:15px;
 } 
 
-.faq #sidebar,
-.statue #sidebar {
+.faq #sidebar {
 	width:240px;
 	padding:15px 13px;
 	margin-top:15px;
 	float:right;
-	background:#f2f0ec url(../images/sidebar-bg.png);
+	background:#F2EFEC;
 }
-
-.faq h2, 
-.statue h2 {
-	color:#BD312B;
+ 
+.faq h2 {
+	color: #e73e39;
 	font-family:"Times New Roman";
 	font-weight:bold;
 	height:16px;
@@ -2464,8 +2453,8 @@ body.message #message{
 	margin-bottom: 1.5em;
 }
 
-.statue h2 {
-	text-transform:uppercase;
+.faq #content p {
+	color:#555555;
 }
 
 .statue #content p {
@@ -2491,33 +2480,31 @@ body.faq #content p.desc {
 	letter-spacing:.02em;
 	font-weight:bold;
 }
-
-.faq p.answer,
-.statue #content p {
+.faq #content p.answer {
 	margin-top:15px;
 	line-height: 1.4em;
 	font-size: .8em;
 	color: #7b7c7c;
 }
 
-.faq #sidebar .widget,
-.statue #sidebar .widget {	
+.faq #sidebar .widget {
 	padding-bottom:10px;
 	border-bottom:solid 3px #000;
 }
 
-.faq #sidebar div.last,
-.statue #sidebar div.last {	
+.faq #sidebar #subscribe.widget {
+	border: none;
+}
+
+.faq #sidebar div.last {
 	border:none;
 } 
 
-.faq #sidebar #links,
-.statue #sidebar #links {
+.faq #sidebar #links {
 	border-bottom:dashed 1px #000;
 }
 
-.faq #sidebar #links a,
-.statue #sidebar #links a{	
+.faq #sidebar #links a{
 	display:block;
 	border:4px solid #DDDCDB;
 	height:36px;
@@ -2532,6 +2519,8 @@ body.faq #content p.desc {
 	background:url(/images/sidebar-link-arrow.png) no-repeat 210px 25px;
 }
 
+.faq #sidebar #links a.about{}
+
 .faq #sidebar #links a.liberty{
 	padding-top:16px;
 	height:50px;
@@ -2539,50 +2528,36 @@ body.faq #content p.desc {
 
 .news #sidebar #subscribe h3,
 .faq #sidebar #subscribe {
-.faq #sidebar #subscribe,
-.statue #sidebar #subscribe {
 	margin-top:18px;
 	letter-spacing:0.05em;
   line-height:1.2em;
 }
 
 .news #sidebar #subscribe h3,
-.faq #sidebar #subscribe h3,
-.statue #sidebar #subscribe h3{
+.faq #sidebar #subscribe h3{
 	font-weight:bold;
 letter-spacing:0.05em;
 line-height:1.2em;	
 }
-
-.news #sidebar #subscribe h3 {
-	letter-spacing:0em;
-}
-
 .news #sidebar #subscribe form,
-.faq #sidebar #subscribe form,
-.statue #sidebar #subscribe form {
+.faq #sidebar #subscribe form {
 	margin:15px 0;
 }
 .news #sidebar #subscribe form input,
-.faq #sidebar #subscribe form input,
-.statue #sidebar #subscribe form input {
+.faq #sidebar #subscribe form input {
 	border:none;
 	background:#fff;
-	font-weight:bold;
 }
 .news #sidebar #subscribe form input#zip,
-.faq #sidebar #subscribe form input#zip,
-.statue #sidebar #subscribe form input#zip {
+.faq #sidebar #subscribe form input#zip {
 	width:50px;
 }
 .news #sidebar #subscribe form input.submit
-.faq #sidebar #subscribe form input.submit,
-.statue #sidebar #subscribe form input.submit {
+.faq #sidebar #subscribe form input.submit {
 	font-size:.9em;
 }
 
-.faq #sidebar #contact-us h3,
-.statue #sidebar #contact-us h3 {
+.faq #sidebar #contact-us h3 {
 	font-style:italic;
 	font-weight:bold;
 	padding-left:42px;
@@ -2598,54 +2573,31 @@ line-height:1.2em;
 	padding-top: 10px;
 }
 
-.faq #sidebar #contact-us p,
-.statue #sidebar #contact-us p {
+.faq #sidebar #contact-us p {
 	margin-top:10px;
 	padding-left:40px;
 	font-size: 14px;
 	font-weight: bold;
 }
 
-.faq #sidebar #contact-us a.mailto,
-.statue #sidebar #contact-us a.mailto {
+.faq #sidebar #contact-us a.mailto {
 	display:block;
 	margin-left:40px;
 	margin-top:10px;
 	color: #649fd8;
 }
 
-.faq #sidebar #tags,
-.statue #sidebar #tags {
+.faq #sidebar #tags {
 	padding-top:10px;
 }
 
-.faq #sidebar #tags p,
-.statue #sidebar #tags p {
-	font-size:.9em;
+.faq #sidebar #tags p {
+	font-size: .9em;
+	font-weight: bold;
 }
 
-.statue #sidebar #links a.faqs {
-	float:right;
-	padding:15px 50px 0 30px;
-	background-position:100px center;
-}
 
-.statue #sidebar #counter {
-	float:left;
-	border:4px solid #DDDCDB;
-	height:39px;
-	padding:12px 0 0 7px;
-	width:96px;
-	background:#C1BBB5;
-}
 
-.statue #sidebar #counter div {
-	background:url(../images/sign.png) no-repeat;
-	width:28px;
-	height:28px;
-	float:left;
-	margin-right:2px;
-}
 
 
 
@@ -2808,7 +2760,7 @@ line-height:1.2em;
 
 .about a.more {
 	font-size:.9em;
-	padding-top:4px;
+	padding-top:6px;
 	padding-bottom:6px;
 }
 
@@ -2938,7 +2890,7 @@ line-height:1.2em;
 .news #sidebar {
 	float:right;
 	width:318px;
-	background:#f2f0ec url(../images/sidebar-bg.png);
+	background:#F2EEEA;
 	padding:11px;
 	}
 	
@@ -3011,7 +2963,7 @@ line-height:1.2em;
 	font-style:italic;
 	font-weight:bold;
 	font-size:1.25em;
-	margin:10px 0;
+	margin:5px 0;
 }
 
 .news #sidebar #archive ul{
@@ -3045,7 +2997,7 @@ line-height:1.2em;
 
 .news .post {
 	padding-bottom:20px;
-	border-bottom:dashed 1px #555555;
+	border-bottom: 1px dashed #828484;
 }
 	
 .news h3.title,
@@ -3086,80 +3038,4 @@ line-height:1.2em;
 	background-image:none;
 	padding-right:5px;
 	margin-right:10px;
-}
-
-.login #header {
-	margin-bottom:28px;
-}
-
-.login #content h2 {
-	margin-bottom:15px;
-}
-
-.login #content h2 .or{
-	color:#9D9D9F;
-	font-size:.8em;
-}
-
-.login #content h2 .join{
-	text-decoration:underline;
-	color:#C8C8C9;
-}
-
-.login form {
-	width:510px;
-	float:left;
-	padding-left:55px;	
-}
-
-.login form fieldset label {
-	font-weight:bold;
-	text-align:right;
-	width:90px;
-}
-
-.login form fieldset.buttons {
-	text-align:right;
-	margin-top:10px;
-	padding-right:14px;
-}
-
-.login h3 {
-	margin-top:25px;
-	margin-bottom:7px;
-}
-
-.login h3,
-.login p {
-	padding-left:75px;
-}
-
-.login p {
-	font-size:.8em;
-	}
-	
-.login .facebook {
-	float:right;
-	width:375px;
-	margin-top:20px;
-}
-
-.login .facebook .or{
-	float:left;
-	margin-right:50px;
-}
-
-.login .facebook a{
-	display:block;
-	height:100%;
-	width:100%;
-}
-
-.login .facebook p {
-	padding:0;
-	margin:15px 0 0 60px;
-}
-
-.login #footer {
-	margin-top:110px;
 }
