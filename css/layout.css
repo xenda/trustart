@@ -1257,7 +1257,7 @@ span.numbers,
 
 .profile ul#projects li div.info p.desc {
 	font-weight:normal;
-	font-size:.7em;
+	font-size:.6em;
 	height:45px;
 	margin-bottom:7px;
 	overflow:hidden;
@@ -1338,14 +1338,16 @@ span.numbers,
 .profile ul#projects li div.info table .content td .price,
 .profile ul#projects li div.info table .content td .logo{
 	color:#fff;
-	font-size:.9em;
-	margin-bottom:3px;
+	font-size:.8em;
+	margin-bottom:10px;
+	height:15px;
+	line-height:15px;
 }
 
 .profile ul#projects li div.info table .content td .logo{
-	background:url(../images/logo-mini-mini-mini.png) 2px center no-repeat;
+	background:url(../images/logo-mini-mini-mini.png) left center no-repeat;
+	display:inline;
 	padding-left:18px;
-	text-align:left;
 	}
 
 .profile ul#projects li div.share form li input{
@@ -2704,8 +2706,8 @@ body.message #message{
 
 .about a.more {
 	font-size:.9em;
-	padding-top:6px;
-	padding-bottom:4px;
+	padding-top:4px;
+	padding-bottom:6px;
 }
 
 .about #how-work p {
@@ -2975,4 +2977,80 @@ body.message #message{
 	background-image:none;
 	padding-right:5px;
 	margin-right:10px;
+}
+
+.login #header {
+	margin-bottom:28px;
+}
+
+.login #content h2 {
+	margin-bottom:15px;
+}
+
+.login #content h2 .or{
+	color:#9D9D9F;
+	font-size:.8em;
+}
+
+.login #content h2 .join{
+	text-decoration:underline;
+	color:#C8C8C9;
+}
+
+.login form {
+	width:510px;
+	float:left;
+	padding-left:55px;	
+}
+
+.login form fieldset label {
+	font-weight:bold;
+	text-align:right;
+	width:90px;
+}
+
+.login form fieldset.buttons {
+	text-align:right;
+	margin-top:10px;
+	padding-right:14px;
+}
+
+.login h3 {
+	margin-top:25px;
+	margin-bottom:7px;
+}
+
+.login h3,
+.login p {
+	padding-left:75px;
+}
+
+.login p {
+	font-size:.8em;
+	}
+	
+.login .facebook {
+	float:right;
+	width:375px;
+	margin-top:20px;
+}
+
+.login .facebook .or{
+	float:left;
+	margin-right:50px;
+}
+
+.login .facebook a{
+	display:block;
+	height:100%;
+	width:100%;
+}
+
+.login .facebook p {
+	padding:0;
+	margin:15px 0 0 60px;
+}
+
+.login #footer {
+	margin-top:110px;
 }
